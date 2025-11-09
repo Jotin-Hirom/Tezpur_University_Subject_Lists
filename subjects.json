@@ -1,2342 +1,1127 @@
 {
   "subjects": [
-    { "code": "MS101", "course_name": "Mathematics I" },
-    { "code": "MS103", "course_name": "Mathematics II" },
-    { "code": "PH101", "course_name": "Physics I" },
-    { "code": "PH102", "course_name": "Physics II" },
-    { "code": "CH101", "course_name": "Chemistry" },
-    { "code": "ME102", "course_name": "Engineering Mechanics" },
-    { "code": "EL101", "course_name": "Basic Electrical Engineering" },
-    { "code": "EL102", "course_name": "Basic Electronics" },
-    { "code": "ME103", "course_name": "Workshop Practice" },
-    { "code": "CO101", "course_name": "Introductory Computing" },
-    { "code": "ME101", "course_name": "Engineering Graphics" },
-    { "code": "CO102", "course_name": "Computing Laboratory" },
-    { "code": "EG101", "course_name": "Communicative English" },
-    { "code": "SO101", "course_name": "Sociology" },
-    { "code": "BM101", "course_name": "Elementary Economics" },
-    { "code": "BT101", "course_name": "Elements of Modern Biology" },
-    { "code": "ES101", "course_name": "Environmental Science" },
-    { "code": "CH102", "course_name": "Introductory Material Science" },
-    { "code": "CO301", "course_name": "Operating Systems" },
-    { "code": "CO306", "course_name": "Embedded Systems" },
-    { "code": "CO302", "course_name": "Database Systems" },
-    { "code": "CO307", "course_name": "Software Engineering" },
+    { "code": "AM701", "course_name": "Inventory Modeling" },
+    { "code": "AM702", "course_name": "Optimization Techniques" },
+    { "code": "AM703", "course_name": "Transportation Problems and Soft Computing" },
+    { "code": "AM704", "course_name": "Graphs and Matrices" },
+    { "code": "AM705", "course_name": "Linear Algebra and Applicable Matrix Theory" },
+    { "code": "AM706", "course_name": "Topics in Fourier Analysis" },
+    { "code": "AM707", "course_name": "Topics in Theory of Partial Differential Equations" },
+    { "code": "AP701", "course_name": "Astrophysical Gas Dynamics and Accretion Process" },
+    { "code": "AP702", "course_name": "Optical Properties of Solids" },
+    { "code": "CH103", "course_name": "Chemistry" },
+    { "code": "CE103", "course_name": "Engineering Graphics" },
+    { "code": "CE220", "course_name": "Building Construction and Drawing" },
+    { "code": "CE221", "course_name": "Building Materials and Technology" },
+    { "code": "CE222", "course_name": "Concrete and Structure Lab" },
+    { "code": "CE223", "course_name": "Fluid Mechanics" },
+    { "code": "CE224", "course_name": "Surveying" },
+    { "code": "CE225", "course_name": "Structural Analysis I" },
+    { "code": "CE226", "course_name": "Geotechnical Engineering I" },
+    { "code": "CE227", "course_name": "Geotechnical Engineering Lab" },
+    { "code": "CE228", "course_name": "Engineering Geology" },
+    { "code": "CE229", "course_name": "Solid Mechanics" },
+    { "code": "CE320", "course_name": "Structural Design I" },
+    { "code": "CE321", "course_name": "Hydraulics" },
+    { "code": "CE322", "course_name": "Structural Analysis II" },
+    { "code": "CE323", "course_name": "Geotechnical Engineering II" },
+    { "code": "CE324", "course_name": "Environmental Engineering I" },
+    { "code": "CE325", "course_name": "Environmental Engineering Lab" },
+    { "code": "CE326", "course_name": "Transportation Engineering I" },
+    { "code": "CE327", "course_name": "Transportation Engineering Lab" },
+    { "code": "CE328", "course_name": "Structural Design II" },
+    { "code": "CE329", "course_name": "Environmental Engineering II" },
+    { "code": "CE330", "course_name": "Estimating, Costing and Valuation" },
+    { "code": "CE331", "course_name": "Construction Management" },
+    { "code": "CE421", "course_name": "Advanced Reinforced Concrete Design" },
+    { "code": "CE422", "course_name": "Dynamics of Structures" },
+    { "code": "CE423", "course_name": "Pre-stressed Concrete and Industrial Structures" },
+    { "code": "CE424", "course_name": "Bridge Engineering" },
+    { "code": "CE425", "course_name": "Soil Dynamics and Foundation Engineering" },
+    { "code": "CE426", "course_name": "Ground Improvement Methods" },
+    { "code": "CE427", "course_name": "Earth Retaining Structures" },
+    { "code": "CE428", "course_name": "Applied Geotechnical Engineering" },
+    { "code": "CE429", "course_name": "Environmental Geotechniques" },
+    { "code": "CE430", "course_name": "Open Channel Flow" },
+    { "code": "CE431", "course_name": "Hydraulic Structures" },
+    { "code": "CE432", "course_name": "Hydraulic Machines" },
+    { "code": "CE433", "course_name": "Groundwater Hydrology and Management" },
+    { "code": "CE434", "course_name": "Air Pollution and Industrial Waste Management" },
+    { "code": "CE435", "course_name": "Solid Waste Engineering" },
+    { "code": "CE436", "course_name": "Environmental Impact Assessment" },
+    { "code": "CE437", "course_name": "Remote Sensing and GIS" },
+    { "code": "CE438", "course_name": "Pavement Design" },
+    { "code": "CE439", "course_name": "Pavement Materials" },
+    { "code": "CE440", "course_name": "Geometric Design of Road Transportation System" },
+    { "code": "CE441", "course_name": "Design and Construction of Rural Roads" },
+    { "code": "CE442", "course_name": "Analysis and Design of Foundations" },
+    { "code": "CE471", "course_name": "Industrial Summer Training" },
+    { "code": "CE483", "course_name": "Project I" },
+    { "code": "CE484", "course_name": "Project II" },
+    { "code": "CE501", "course_name": "Engineering Behaviour of Soil" },
+    { "code": "CE502", "course_name": "Geotechnical Exploration and Testing" },
+    { "code": "CE503", "course_name": "Strength and Compressibility of Soils" },
+    { "code": "CE504", "course_name": "Advanced Foundation Engineering" },
+    { "code": "CE505", "course_name": "Ground Improvement Methods" },
+    { "code": "CE521", "course_name": "Unsaturated Soil Mechanics" },
+    { "code": "CE522", "course_name": "Reinforced Earth and Geosynthetics" },
+    { "code": "CE523", "course_name": "Rock Mechanics" },
+    { "code": "CE524", "course_name": "Groundwater Hydrology" },
+    { "code": "CE525", "course_name": "Numerical Methods in Engineering" },
+    { "code": "CE526", "course_name": "Analysis and Design of Pavements" },
+    { "code": "CE527", "course_name": "Slope Stability and Retaining Structures" },
+    { "code": "CE528", "course_name": "Soil Dynamics and Foundation Engineering" },
+    { "code": "CE529", "course_name": "Earth and Rockfill Dams" },
+    { "code": "CE530", "course_name": "Geotechnical Aspects of Waste Disposal" },
+    { "code": "CE531", "course_name": "Environmental Geotechnology" },
+    { "code": "CE532", "course_name": "Earthquake Engineering" },
+    { "code": "CE598", "course_name": "M.Tech Project (MTP) Phase I" },
+    { "code": "CE599", "course_name": "M.Tech Project (MTP) Phase II" },
+    { "code": "CO103", "course_name": "Introductory Computing" },
+    { "code": "CO104", "course_name": "Computing Laboratory" },
+    { "code": "CO202", "course_name": "Digital Logic Design" },
+    { "code": "CO206", "course_name": "Design and Analysis of Algorithms" },
+    { "code": "CO208", "course_name": "Object Oriented Programming" },
+    { "code": "CO209", "course_name": "Computing Workshop" },
+    { "code": "CO210", "course_name": "Data Structures" },
+    { "code": "CO211", "course_name": "Data Structures using Object Oriented Programming Lab" },
+    { "code": "CO214", "course_name": "Computer Architecture and Organization" },
+    { "code": "CO215", "course_name": "Computer Organization Lab" },
+    { "code": "CO216", "course_name": "Formal Language and Automata" },
+    { "code": "CO217", "course_name": "Graph Theory" },
+    { "code": "CO218", "course_name": "Data Communication" },
     { "code": "CO303", "course_name": "Computer Graphics" },
-    { "code": "CO308", "course_name": "Compiler Design" },
     { "code": "CO304", "course_name": "Principles of Programming Languages" },
-    { "code": "BM322", "course_name": "Social Responsibility and Professional Ethics in Engineering" },
-    { "code": "CO305", "course_name": "Computer Networks" },
-    { "code": "BM321", "course_name": "Fundamentals of Management" },
-    { "code": "CO401", "course_name": "Artificial Intelligence" },
-    { "code": "CO482", "course_name": "Project II" },
-    { "code": "CO471", "course_name": "Industrial Summer Training" },
-    { "code": "CO481", "course_name": "Project" },
-    { "code": "CO421", "course_name": "Graph Theory" },
-    { "code": "CO422", "course_name": "Theory of Computation" },
+    { "code": "CO309", "course_name": "Operating Systems" },
+    { "code": "CO310", "course_name": "Operating Systems Lab" },
+    { "code": "CO311", "course_name": "Software Engineering" },
+    { "code": "CO312", "course_name": "Database Systems" },
+    { "code": "CO313", "course_name": "Database Systems Lab" },
+    { "code": "CO314", "course_name": "System Software and Compiler Design" },
+    { "code": "CO315", "course_name": "Computer Networks" },
+    { "code": "CO316", "course_name": "Computer Networks Lab" },
+    { "code": "CO317", "course_name": "Project I (Software Engineering Perspective)" },
+    { "code": "CO318", "course_name": "Cryptography" },
+    { "code": "CO319", "course_name": "Statistical Modelling and Applications" },
+    { "code": "CO402", "course_name": "Project II" },
+    { "code": "CO403", "course_name": "Project III" },
+    { "code": "CO404", "course_name": "Summer Internship / Industrial Training" },
+    { "code": "CO406", "course_name": "Distributed Systems" },
     { "code": "CO423", "course_name": "Web Technology" },
-    { "code": "CO424", "course_name": "E-Commerce" },
-    { "code": "CO425", "course_name": "VLSI Design" },
-    { "code": "CO426", "course_name": "Advanced Computer Architecture" },
-    { "code": "CO427", "course_name": "Modeling & Simulation" },
-    { "code": "CO428", "course_name": "Computer Peripherals & Interfacing" },
-    { "code": "CO429", "course_name": "Computer Systems Performance Evaluation" },
-    { "code": "CO430", "course_name": "Management Information System" },
-    { "code": "CO431", "course_name": "System Analysis and Design" },
-    { "code": "CO432", "course_name": "Information Theory & Coding" },
-    { "code": "CO433", "course_name": "Digital Signal Processing" },
-    { "code": "CO434", "course_name": "Image Processing" },
+    { "code": "CO422", "course_name": "Theory of Computation" },
+    { "code": "CO432", "course_name": "Information Theory and Coding" },
     { "code": "CO435", "course_name": "Mobile Computing" },
-    { "code": "CO436", "course_name": "Wireless Communication" },
-    { "code": "CO501", "course_name": "Network Management and Security" },
-    { "code": "CO502", "course_name": "Data Compression" },
-    { "code": "CO503", "course_name": "Fuzzy Logic and Neural Networks" },
     { "code": "CO504", "course_name": "Natural Language Processing" },
     { "code": "CO505", "course_name": "Advanced Database Management System" },
-    { "code": "CO506", "course_name": "Advanced Software Engineering" },
-    { "code": "CO507", "course_name": "Advanced Embedded Systems" },
-    { "code": "CO508", "course_name": "Grid Computing" },
-    { "code": "CO509", "course_name": "Computer Vision" },
-    { "code": "CO510", "course_name": "Robotics" },
-    { "code": "CO511", "course_name": "Ubiquitous and Pervasive Computing" }
+    { "code": "CO509", "course_name": "Computer Vision and Image Processing" },
+    { "code": "CO512", "course_name": "Parallel Programming" },
+    { "code": "CO513", "course_name": "Fundamentals of Speech Processing" },
+    { "code": "CO514", "course_name": "Machine Learning" },
+    { "code": "CO515", "course_name": "Knowledge Representation and Reasoning" },
+    { "code": "CO516", "course_name": "Advanced Algorithms" },
+    { "code": "CO517", "course_name": "Virtual and Augmented Reality" },
+    { "code": "CO518", "course_name": "Cloud Computing" },
+    { "code": "CO519", "course_name": "Internet of Things" },
+    { "code": "CO520", "course_name": "Software Defined Networking and Network Function Virtualization" },
+    { "code": "CO521", "course_name": "Computational Geometry" },
+    { "code": "CO522", "course_name": "Bioinformatics" },
+    { "code": "CO523", "course_name": "Quantum Computing" },
+    { "code": "CO524", "course_name": "Linear Optimization" },
+    { "code": "CO525", "course_name": "Data Mining" },
+    { "code": "CO526", "course_name": "Operation Research" },
+    { "code": "CS101", "course_name": "Basics in Computer Application" },
+    { "code": "CS305", "course_name": "Internet Concepts and Web Technology" },
+    { "code": "CS405", "course_name": "Discrete Mathematics" },
+    { "code": "CS412", "course_name": "Data Structures" },
+    { "code": "CS413", "course_name": "Database Management System" },
+    { "code": "CS414", "course_name": "Database Management System Lab" },
+    { "code": "CS416", "course_name": "Object Oriented Programming and Data Structures Lab" },
+    { "code": "CS417", "course_name": "Operating Systems" },
+    { "code": "CS418", "course_name": "Operating Systems Lab" },
+    { "code": "CS421", "course_name": "Graph Theory" },
+    { "code": "CS422", "course_name": "Numerical Methods" },
+    { "code": "CS424", "course_name": "Formal Language and Automata" },
+    { "code": "CS425", "course_name": "Artificial Intelligence" },
+    { "code": "CS432", "course_name": "Compiler Design" },
+    { "code": "CS502", "course_name": "System Software" },
+    { "code": "CS507", "course_name": "Computer Networks" },
+    { "code": "CS508", "course_name": "Database Management Systems" },
+    { "code": "CS509", "course_name": "Data Communication" },
+    { "code": "CS510", "course_name": "Minor Project" },
+    { "code": "CS513", "course_name": "Software Engineering" },
+    { "code": "CS515", "course_name": "Major Project" },
+    { "code": "CS519", "course_name": "Computer Networks" },
+    { "code": "CS520", "course_name": "Computer Networks Lab" },
+    { "code": "CS522", "course_name": "Computer Graphics" },
+    { "code": "CS523", "course_name": "Enterprise Resource Planning" },
+    { "code": "CS524", "course_name": "Theory of Computation" },
+    { "code": "CS529", "course_name": "Embedded Systems" },
+    { "code": "CS530", "course_name": "Data Analytics and Visualization" },
+    { "code": "CS531", "course_name": "Object Oriented Programming and Design" },
+    { "code": "CS532", "course_name": "Compiler Design" },
+    { "code": "CS533", "course_name": "Computational Geometry" },
+    { "code": "CS534", "course_name": "Selected Topics in Computer Networks" },
+    { "code": "CS538", "course_name": "Computational Geometry" },
+    { "code": "CS541", "course_name": "Mathematical Foundation for Computer Science" },
+    { "code": "CS542", "course_name": "Advanced Algorithms and Data Structures" },
+    { "code": "CS543", "course_name": "Advanced Programming Lab I" },
+    { "code": "CS544", "course_name": "Selected Topics in Computer Networks" },
+    { "code": "CS545", "course_name": "Seminar" },
+    { "code": "CS601", "course_name": "Design and Analysis of Algorithms" },
+    { "code": "CS602", "course_name": "Image Processing" },
+    { "code": "CS606", "course_name": "Computer Architecture and Parallel Processing" },
+    { "code": "CS610", "course_name": "Bioinformatics" },
+    { "code": "CS621", "course_name": "Mobile Computing" },
+    { "code": "CS638", "course_name": "Software Defined Networking and Network Function Virtualization" },
+    { "code": "CS640", "course_name": "Term Project I" },
+    { "code": "CS641", "course_name": "Term Project II" },
+    { "code": "IT503", "course_name": "Multimedia Systems" },
+    { "code": "IT504", "course_name": "E-Commerce" },
+    { "code": "IT507", "course_name": "Computer Security and Cryptography" },
+    { "code": "IT509", "course_name": "Data Mining and Data Warehousing" },
+    { "code": "IT510", "course_name": "Advanced Operating Systems" },
+    { "code": "IT517", "course_name": "Pattern Recognition" },
+    { "code": "IT518", "course_name": "Graph Theory" },
+    { "code": "IT523", "course_name": "Discrete Mathematics" },
+    { "code": "IT604", "course_name": "Term Project I" },
+    { "code": "IT605", "course_name": "Term Project II" },
+    { "code": "EC102", "course_name": "Basic Electronics" },
+    { "code": "EC201", "course_name": "Signals and Systems" },
+    { "code": "EC202", "course_name": "Electronics Devices Lab" },
+    { "code": "EC203", "course_name": "Digital System Design" },
+    { "code": "EC204", "course_name": "Digital System Design Lab" },
+    { "code": "EC205", "course_name": "Signals and Systems" },
+    { "code": "EC206", "course_name": "Network Theory" },
+    { "code": "EC207", "course_name": "Analog and Digital Communication" },
+    { "code": "EC208", "course_name": "Analog and Digital Communication Lab" },
+    { "code": "EC209", "course_name": "Analog Circuits" },
+    { "code": "EC210", "course_name": "Analog Circuits Lab" },
+    { "code": "EC211", "course_name": "Microcontroller and Microprocessor" },
+    { "code": "EC212", "course_name": "Microcontroller Lab" },
+    { "code": "EC301", "course_name": "Electromagnetic Waves" },
+    { "code": "EC302", "course_name": "Electromagnetic Waves Lab" },
+    { "code": "EC303", "course_name": "Computer Architecture" },
+    { "code": "EC304", "course_name": "Probability Theory and Stochastic Process" },
+    { "code": "EC305", "course_name": "Digital Signal Processing" },
+    { "code": "EC306", "course_name": "Digital Signal Processing Lab" },
+    { "code": "EC307", "course_name": "Mobile Communication and Networks" },
+    { "code": "EC308", "course_name": "Electrical Machines and Power Protection" },
+    { "code": "EC309", "course_name": "Intelligent Instrumentation" },
+    { "code": "EC310", "course_name": "CMOS Design" },
+    { "code": "EC311", "course_name": "Control System" },
+    { "code": "EC312", "course_name": "Computer Network" },
+    { "code": "EC313", "course_name": "Computer Network Lab" },
+    { "code": "EC315", "course_name": "Mini Project" },
+    { "code": "EC316", "course_name": "Microwave Techniques" },
+    { "code": "EC317", "course_name": "Speech and Audio Processing" },
+    { "code": "EC318", "course_name": "Digital Image and Video Processing" },
+    { "code": "EC319", "course_name": "VLSI Design" },
+    { "code": "EC401", "course_name": "Information Theory and Coding" },
+    { "code": "EC402", "course_name": "Embedded Systems" },
+    { "code": "EC403", "course_name": "Satellite Communication" },
+    { "code": "EC404", "course_name": "Digital Systems and VHDL" },
+    { "code": "EC405", "course_name": "Computer Vision" },
+    { "code": "EC406", "course_name": "Biomedical Signal Processing" },
+    { "code": "EC407", "course_name": "Antenna and Propagation" },
+    { "code": "EC408", "course_name": "Digital Control System" },
+    { "code": "EC409", "course_name": "Introduction to MEMS" },
+    { "code": "EC410", "course_name": "Biomedical Electronics" },
+    { "code": "EC411", "course_name": "Fibre Optic Communication" },
+    { "code": "EC412", "course_name": "Nano-Electronics" },
+    { "code": "EC413", "course_name": "Fuzzy Logic and Neural Network" },
+    { "code": "EC414", "course_name": "Bioneuro Engineering" },
+    { "code": "EC415", "course_name": "Digital Signal Processor" },
+    { "code": "EC416", "course_name": "Electronics Design Automation" },
+    { "code": "EC418", "course_name": "Power Electronics" },
+    { "code": "EC419", "course_name": "Mixed Signal Design" },
+    { "code": "EC420", "course_name": "High Speed Electronics" },
+    { "code": "EL516", "course_name": "Design of Fine Mechanics and Power Devices" },
+    { "code": "EL517", "course_name": "Physical and Industrial Design of Electronics Systems" },
+    { "code": "EL521", "course_name": "Design and Technology of Electronic Devices" },
+    { "code": "EL523", "course_name": "Advanced Programming Language" },
+    { "code": "EL530", "course_name": "VLSI Design" },
+    { "code": "EL531", "course_name": "Design of Digital Systems" },
+    { "code": "EL538", "course_name": "Advanced Electronic Devices" },
+    { "code": "EL540", "course_name": "Intelligent Instrumentation" },
+    { "code": "EE103", "course_name": "Basic Electrical Engineering" },
+    { "code": "EE104", "course_name": "Basic Electrical Engineering Lab" },
+    { "code": "EE217", "course_name": "Digital Electronics" },
+    { "code": "EE218", "course_name": "Digital Electronics Laboratory" },
+    { "code": "EE219", "course_name": "Electrical Machines II" },
+    { "code": "EE220", "course_name": "Electrical Machines Laboratory II" },
+    { "code": "EE221", "course_name": "Microprocessor" },
+    { "code": "EE222", "course_name": "Microcontroller Lab" },
+    { "code": "EE311", "course_name": "Power Systems I (Apparatus and Modelling)" },
+    { "code": "EE312", "course_name": "Power Systems Laboratory I" },
+    { "code": "EE313", "course_name": "Control Systems" },
+    { "code": "EE315", "course_name": "Power Electronics" },
+    { "code": "EE316", "course_name": "Power Electronics Laboratory" },
+    { "code": "EE318", "course_name": "Power Systems II (Operation and Control)" },
+    { "code": "EE319", "course_name": "Power Systems Laboratory II" },
+    { "code": "EE320", "course_name": "Measurements and Instrumentation Laboratory" },
+    { "code": "EE321", "course_name": "Electronics Design Laboratory" },
+    { "code": "EE322", "course_name": "Summer Internship" },
+    { "code": "EE412", "course_name": "Project Stage I" },
+    { "code": "EE420", "course_name": "Project Stage II" },
+    { "code": "EE323", "course_name": "Line Commutated and Active Rectifiers" },
+    { "code": "EE324", "course_name": "Electrical Drives" },
+    { "code": "EE325", "course_name": "High Voltage Engineering" },
+    { "code": "EE326", "course_name": "Electrical Energy Conservation and Auditing" },
+    { "code": "EE327", "course_name": "Industrial Electrical Systems" },
+    { "code": "EE328", "course_name": "Digital Control Systems" },
+    { "code": "EE329", "course_name": "Digital Signal Processing" },
+    { "code": "EE330", "course_name": "Computer Architecture" },
+    { "code": "EE331", "course_name": "Electromagnetic Waves" },
+    { "code": "EE332", "course_name": "Computational Electromagnetics" },
+    { "code": "EE333", "course_name": "Control Systems Design" },
+    { "code": "ME102", "course_name": "Engineering Mechanics" },
+    { "code": "ME103", "course_name": "Workshop Practice" },
+    { "code": "ME201", "course_name": "Solid Mechanics" },
+    { "code": "ME202", "course_name": "Fluid Mechanics I" },
+    { "code": "ME203", "course_name": "Material Science" },
+    { "code": "ME205", "course_name": "Thermodynamics" },
+    { "code": "ME208", "course_name": "Manufacturing Technology I" },
+    { "code": "ME209", "course_name": "Fluid Mechanics II" },
+    { "code": "ME214", "course_name": "Kinematics of Machinery" },
+    { "code": "ME215", "course_name": "Mechanical Measurements and Instrumentation" },
+    { "code": "ME216", "course_name": "Manufacturing Technology II" },
+    { "code": "ME308", "course_name": "Heat and Mass Transfer" },
+    { "code": "ME311", "course_name": "Machine Design I" },
+    { "code": "ME312", "course_name": "Machine Design II" },
+    { "code": "ME313", "course_name": "Dynamics of Machinery" },
+    { "code": "ME314", "course_name": "Applied Thermodynamics" },
+    { "code": "ME316", "course_name": "Computer-Aided Engineering" },
+    { "code": "ME317", "course_name": "Mechanical Engineering Lab (Thermal) III" },
+    { "code": "ME318", "course_name": "Mini Project" },
+    { "code": "ME401", "course_name": "Industrial Systems Engineering" },
+    { "code": "ME421", "course_name": "Computer Graphics and Solid Modeling" },
+    { "code": "ME422", "course_name": "Optimization Methods in Engineering" },
+    { "code": "ME423", "course_name": "Mechanical Vibration" },
+    { "code": "ME424", "course_name": "Theory of Elasticity" },
+    { "code": "ME425", "course_name": "Machine Tools and Machining" },
+    { "code": "ME426", "course_name": "Reliability Engineering" },
+    { "code": "ME427", "course_name": "Productivity Improvement Techniques" },
+    { "code": "ME428", "course_name": "Finite Element Methods in Engineering" },
+    { "code": "ME429", "course_name": "Gas Turbine and Compressor" },
+    { "code": "ME430", "course_name": "Value Engineering" },
+    { "code": "ME431", "course_name": "Fracture and Fatigue" },
+    { "code": "ME432", "course_name": "Engineering Optimization" },
+    { "code": "ME433", "course_name": "Experimental Stress Analysis" },
+    { "code": "ME434", "course_name": "Composite Materials" },
+    { "code": "ME435", "course_name": "Machine Tool Design" },
+    { "code": "ME436", "course_name": "Combustion Engineering" },
+    { "code": "ME437", "course_name": "Tea Machineries" },
+    { "code": "ME438", "course_name": "Petroleum and Drilling Technology" },
+    { "code": "ME439", "course_name": "Refrigeration and Air Conditioning" },
+    { "code": "ME503", "course_name": "Mechanics of Composite Materials" },
+    { "code": "ME504", "course_name": "Failure Analysis of Materials" },
+    { "code": "ME505", "course_name": "Advanced Dynamics" },
+    { "code": "ME506", "course_name": "Theory of Elasticity and Plasticity" },
+    { "code": "ME507", "course_name": "Theory of Plates and Shells" },
+    { "code": "ME508", "course_name": "Continuum Mechanics" },
+    { "code": "ME521", "course_name": "Robotics" },
+    { "code": "ME522", "course_name": "Quality Engineering" },
+    { "code": "ME523", "course_name": "Non-Conventional Energy" },
+    { "code": "ME524", "course_name": "Operations Management" },
+    { "code": "ME525", "course_name": "Tribology" },
+    { "code": "ME526", "course_name": "Modern Control System" },
+    { "code": "ME527", "course_name": "CAD-CAM" },
+    { "code": "ME528", "course_name": "Energy Conservation and Waste Heat Recovery" },
+    { "code": "ME529", "course_name": "Artificial Intelligence in Engineering" },
+    { "code": "ME531", "course_name": "Project Management" },
+    { "code": "ME532", "course_name": "Power Plant Engineering" },
+    { "code": "ME533", "course_name": "Energy Management" },
+    { "code": "ME534", "course_name": "Mechatronics" },
+    { "code": "ME535", "course_name": "Advanced Engineering Thermodynamics" },
+    { "code": "ME537", "course_name": "Applied Computational Methods" },
+    { "code": "ME538", "course_name": "Computer-Aided Design in Engineering" },
+    { "code": "ME539", "course_name": "Optimization Techniques in Engineering" },
+    { "code": "ME540", "course_name": "Evolutionary Algorithms for Optimum Design" },
+    { "code": "ME542", "course_name": "Computational Fluid Dynamics" },
+    { "code": "ME543", "course_name": "Compressible Flow" },
+    { "code": "ME544", "course_name": "Turbulent Shear Flow" },
+    { "code": "ME545", "course_name": "Viscous Fluid Flow" },
+    { "code": "ME546", "course_name": "Fluid Transportation System" },
+    { "code": "ME547", "course_name": "Two Phase Flow" },
+    { "code": "ME601", "course_name": "Automobile Engineering" },
+    { "code": "ME602", "course_name": "Computational Fluid Dynamics and Heat Transfer" },
+    { "code": "ME605", "course_name": "Hybrid Electric Vehicles" },
+    { "code": "ME701", "course_name": "Advanced Heat Transfer" },
+    { "code": "LW401", "course_name": "Indian Constitutional Law and Emerging Challenges" },
+    { "code": "LW402", "course_name": "Research Methodology" },
+    { "code": "LW403", "course_name": "Legislation: Principles, Methods & Interpretation" },
+    { "code": "LW404", "course_name": "Criminology, Penology and Victimology" },
+    { "code": "LW405", "course_name": "Human Rights Jurisprudence" },
+    { "code": "LW406", "course_name": "General Principles of Criminal Law" },
+    { "code": "LW407", "course_name": "International Human Rights Law" },
+    { "code": "LW408", "course_name": "Interpretation of Statutes" },
+    { "code": "LW420", "course_name": "Judicial Process" },
+    { "code": "LW421", "course_name": "Project" },
+    { "code": "LW422", "course_name": "Socio-Economic Offences" },
+    { "code": "LW423", "course_name": "Law Relating to Cyber Crime" },
+    { "code": "LW424", "course_name": "Emerging Challenges in Evidence Law" },
+    { "code": "LW425", "course_name": "Criminal Justice and Human Rights" },
+    { "code": "LW426", "course_name": "Protection and Enforcement of Human Rights in India" },
+    { "code": "LW427", "course_name": "Environment and Human Rights" },
+    { "code": "LW501", "course_name": "Law and Social Transformation" },
+    { "code": "LW502", "course_name": "Research Seminar" },
+    { "code": "LW503", "course_name": "Correctional Law and Administration in India" },
+    { "code": "LW504", "course_name": "Comparative Criminal Procedure" },
+    { "code": "LW505", "course_name": "Human Rights and Criminal Justice Administration" },
+    { "code": "LW506", "course_name": "International Humanitarian Law" },
+    { "code": "LW507", "course_name": "International Refugee Law" },
+    { "code": "LW508", "course_name": "Media and Human Rights" },
+    { "code": "LW520", "course_name": "Legal Drafting Skills and Outreach Activities" },
+    { "code": "LW521", "course_name": "Pedagogy in Law" },
+    { "code": "LW522", "course_name": "Dissertation and Viva-Voce" },
+    { "code": "LG421", "course_name": "Philosophy of Linguistics" },
+    { "code": "LG422", "course_name": "Phonetics and Phonology I" },
+    { "code": "LG423", "course_name": "Morphology" },
+    { "code": "LG424", "course_name": "Basic Syntax" },
+    { "code": "LG425", "course_name": "Introduction to Computational Linguistics" },
+    { "code": "LG426", "course_name": "Phonetics and Phonology II" },
+    { "code": "LG427", "course_name": "Syntax" },
+    { "code": "LG428", "course_name": "Semantics" },
+    { "code": "LG429", "course_name": "Field Linguistics" },
+    { "code": "LG430", "course_name": "Cognitive Linguistics" },
+    { "code": "LG501", "course_name": "Language Typology and Language Universals" },
+    { "code": "LG502", "course_name": "Sociolinguistics" },
+    { "code": "LG503", "course_name": "Natural Language Processing" },
+    { "code": "LG504", "course_name": "Advanced Phonology" },
+    { "code": "LG505", "course_name": "Advanced Cognitive Linguistics I" },
+    { "code": "LG506", "course_name": "Generative Syntax" },
+    { "code": "LG507", "course_name": "Lexicography" },
+    { "code": "LG508", "course_name": "Acoustic Phonetics: Instrumental Techniques and Data Analysis" },
+    { "code": "LG509", "course_name": "Historical Linguistics" },
+    { "code": "LG510", "course_name": "Advanced Computational Linguistics" },
+    { "code": "LG511", "course_name": "Research Methodology" },
+    { "code": "LG517", "course_name": "Language Documentation and Grammar Writing" },
+    { "code": "LG518", "course_name": "Introduction to Psycholinguistics" },
+    { "code": "LG521", "course_name": "Dissertation" },
+    { "code": "MC572", "course_name": "Communication Theories" },
+    { "code": "MC573", "course_name": "Principles of Journalism" },
+    { "code": "MC574", "course_name": "Advertising" },
+    { "code": "MC575", "course_name": "Broadcast Media: Radio" },
+    { "code": "MC576", "course_name": "New Media: Evolution, Principles and Theory" },
+    { "code": "MC577", "course_name": "Media in Northeast India" },
+    { "code": "MC578", "course_name": "Writing for Media" },
+    { "code": "MC579", "course_name": "Photojournalism" },
+    { "code": "MC580", "course_name": "Broadcast Media: Television" },
+    { "code": "MC581", "course_name": "PR and Corporate Communication" },
+    { "code": "MC582", "course_name": "Portfolio Preparation and Comprehensive Viva-Voce I" },
+    { "code": "MC588", "course_name": "Communication Research Methods" },
+    { "code": "MC589", "course_name": "Communication for Social Change and Development" },
+    { "code": "MC590", "course_name": "Media Law and Ethics" },
+    { "code": "MC599", "course_name": "Understanding Cinema" },
+    { "code": "MC600", "course_name": "Science Communication" },
+    { "code": "MC601", "course_name": "Political and International Communication" },
+    { "code": "MC602", "course_name": "Communication Research Project" },
+    { "code": "MC603", "course_name": "Portfolio Preparation and Comprehensive Viva-Voce II" },
+    { "code": "MC604", "course_name": "New Media Production" },
+    { "code": "MC605", "course_name": "Documentary Production" },
+    { "code": "MC606", "course_name": "Community Radio" },
+    { "code": "MC583", "course_name": "Media Management" },
+    { "code": "MC584", "course_name": "Graphic Design for Media" },
+    { "code": "MC585", "course_name": "Health Communication" },
+    { "code": "MC586", "course_name": "Film Appreciation and Criticism" },
+    { "code": "MC587", "course_name": "Digital Media Literacy" },
+    { "code": "MC592", "course_name": "Media Culture and Society" },
+    { "code": "MC593", "course_name": "Television Program Production" },
+    { "code": "MC594", "course_name": "Folk and Community Media" },
+    { "code": "CD416", "course_name": "Theories of Communication and Media" },
+    { "code": "CD417", "course_name": "Theories of Communication for Development" },
+    { "code": "CD418", "course_name": "Issues in Development" },
+    { "code": "CD419", "course_name": "Development Journalism" },
+    { "code": "CD420", "course_name": "Introduction to Audio and Video Production" },
+    { "code": "CD421", "course_name": "Research Monitoring and Evaluation" },
+    { "code": "CD422", "course_name": "Participatory Audio and Video Production" },
+    { "code": "CD423", "course_name": "Human Rights" },
+    { "code": "CD424", "course_name": "Media Message Designing for Development" },
+    { "code": "CD425", "course_name": "Campaign Planning" },
+    { "code": "CD426", "course_name": "Folk and Community Media" },
+    { "code": "CD427", "course_name": "New Media for Development" },
+    { "code": "CD428", "course_name": "NGO Participation and Management" },
+    { "code": "CD414", "course_name": "Internship" },
+    { "code": "CD415", "course_name": "Project" },
+    { "code": "EG111", "course_name": "Reading Literature" },
+    { "code": "EG112", "course_name": "English for Communication" },
+    { "code": "EG113", "course_name": "History of English Literature" },
+    { "code": "EG114", "course_name": "English Poetry I: Chaucer to Dryden" },
+    { "code": "EG211", "course_name": "British Drama I: Beginning to Shakespeare" },
+    { "code": "EG212", "course_name": "English Fiction I" },
+    { "code": "EG213", "course_name": "English Poetry II: Pope to Romantics" },
+    { "code": "EG214", "course_name": "Literary Criticism I" },
+    { "code": "EG215", "course_name": "Drama II: Jacobean to Eighteenth Century" },
+    { "code": "EG216", "course_name": "Fiction II: Victorian to Modern" },
+    { "code": "EG311", "course_name": "Poetry III: Victorian to Modern" },
+    { "code": "EG312", "course_name": "Non-Fictional Prose" },
+    { "code": "EG313", "course_name": "Drama III: Shaw to Beckett" },
+    { "code": "EG314", "course_name": "Phonetics of English and ELT" },
+    { "code": "EG315", "course_name": "Literary Criticism II" },
+    { "code": "EG316", "course_name": "Introduction to Postcolonial Literature" },
+    { "code": "EG317", "course_name": "Introduction to Children’s Literature" },
+    { "code": "EG318", "course_name": "Introduction to South Asian Writing" },
+    { "code": "EG451", "course_name": "Literary and Critical Theory I" },
+    { "code": "EG452", "course_name": "English Literature from Chaucer to Marlowe" },
+    { "code": "EG453", "course_name": "Shakespearean Drama" },
+    { "code": "EG454", "course_name": "Fiction I (Early to Jane Austen)" },
+    { "code": "EG455", "course_name": "Language and Language Education" },
+    { "code": "EG456", "course_name": "Puritan to Eighteenth Century Literature (Poetry and Drama)" },
+    { "code": "EG457", "course_name": "Romantic Poetry and Prose" },
+    { "code": "EG458", "course_name": "Fiction II (Nineteenth Century)" },
+    { "code": "EG501", "course_name": "Literary and Critical Theory II" },
+    { "code": "EG502", "course_name": "Modern Drama" },
+    { "code": "EG503", "course_name": "Modern Fiction" },
+    { "code": "EG504", "course_name": "Modern Poetry" },
+    { "code": "EG505", "course_name": "Modern Prose" },
+    { "code": "EG506", "course_name": "Postcolonial Literatures in English" },
+    { "code": "EG507", "course_name": "Translation I" },
+    { "code": "EG508", "course_name": "Translation II" },
+    { "code": "EG509", "course_name": "Gender and Literature I" },
+    { "code": "EG510", "course_name": "Gender and Literature II" },
+    { "code": "EG511", "course_name": "American Literature I" },
+    { "code": "EG512", "course_name": "American Literature II" },
+    { "code": "EG513", "course_name": "Indian Writing in English I" },
+    { "code": "EG514", "course_name": "Indian Writing in English II" },
+    { "code": "EG515", "course_name": "ELT I" },
+    { "code": "EG516", "course_name": "ELT II" },
+    { "code": "EG517", "course_name": "Academic and Critical Writing in English" },
+    { "code": "EG519", "course_name": "Term Paper" },
+    { "code": "AS401", "course_name": "History of Assamese Language" },
+    { "code": "AS402", "course_name": "History of Assamese Literature" },
+    { "code": "AS403", "course_name": "Assamese Poetry" },
+    { "code": "AS404", "course_name": "Historiography of Assamese Literature" },
+    { "code": "AS405", "course_name": "Literary Theory and Criticism" },
+    { "code": "AS406", "course_name": "Structure of Assamese Language" },
+    { "code": "AS407", "course_name": "Assamese Culture" },
+    { "code": "AS408", "course_name": "Assamese Drama" },
+    { "code": "AS409", "course_name": "Assamese Novel" },
+    { "code": "AS410", "course_name": "Creative Writing, Editing and Assamese DTP" },
+    { "code": "AS411", "course_name": "Textual Criticism and Assamese Script" },
+    { "code": "AS412", "course_name": "Introduction to Digital Humanities" },
+    { "code": "AS413", "course_name": "Assamese Prose" },
+    { "code": "AS414", "course_name": "Introduction to Linguistics" },
+    { "code": "AS415", "course_name": "Introduction to Translation Studies" },
+    { "code": "AS416", "course_name": "History of Assamese Book" },
+    { "code": "AS417", "course_name": "Comparative Literature" },
+    { "code": "AS418", "course_name": "Assamese Short Story" },
+    { "code": "AS419", "course_name": "Non-Fictional Writings from Assamese Periodicals" },
+    { "code": "AS420", "course_name": "Women’s Writings in Assamese: Non-Fictional Prose" },
+    { "code": "CT420", "course_name": "Introduction to Cultural Studies" },
+    { "code": "CT421", "course_name": "Cultural Theory: Key Concepts" },
+    { "code": "CT422", "course_name": "Introduction to Popular Culture" },
+    { "code": "CT423", "course_name": "Research Methods" },
+    { "code": "CT430", "course_name": "Media and Culture" },
+    { "code": "CT431", "course_name": "Gender and Culture" },
+    { "code": "CT432", "course_name": "Folklore and Culture" },
+    { "code": "CT433", "course_name": "Exploring North East India" },
+    { "code": "CT434", "course_name": "Culture and Environment" },
+    { "code": "CT435", "course_name": "Indian Society and Culture" },
+    { "code": "CT436", "course_name": "Culture and Heritage" },
+    { "code": "CT437", "course_name": "Digital Culture" },
+    { "code": "CT520", "course_name": "Visual Culture" },
+    { "code": "CT521", "course_name": "Audio-Visual Production" },
+    { "code": "CT522", "course_name": "Music and Culture" },
+    { "code": "CT523", "course_name": "Cinema and Culture" },
+    { "code": "CT528", "course_name": "Oral History Project" },
+    { "code": "CT529", "course_name": "Cyber Ethnography" },
+    { "code": "CT530", "course_name": "Dissertation" },
+    { "code": "CT531", "course_name": "Cultural Industries" },
+    { "code": "CT532", "course_name": "Performance and Culture" },
+    { "code": "CT533", "course_name": "Culture and Science: Select Readings" },
+    { "code": "CT534", "course_name": "Cultural Policy" },
+    { "code": "CT535", "course_name": "Reading India through the Cinematic Lens" },
+    { "code": "CT536", "course_name": "Culture for Social Change" },
+    { "code": "CT537", "course_name": "Cultural Spectacles and Infotainment" },
+    { "code": "CT540", "course_name": "Folk and Tribal Arts" },
+    { "code": "CT541", "course_name": "Cross Cultural Studies: North East India and South East Asia" },
+    { "code": "SC451", "course_name": "Classical Sociological Traditions" },
+    { "code": "SC452", "course_name": "Research Methodology" },
+    { "code": "SC453", "course_name": "Sociology of Family and Kinship" },
+    { "code": "SC454", "course_name": "Sociology of India I" },
+    { "code": "SC455", "course_name": "Sociology of India II" },
+    { "code": "SC456", "course_name": "Modern Sociological Theories and Perspectives" },
+    { "code": "SC457", "course_name": "Economic Sociology" },
+    { "code": "SC458", "course_name": "Social Stratification" },
+    { "code": "SC521", "course_name": "Political Sociology" },
+    { "code": "SC522", "course_name": "Sociology of Development" },
+    { "code": "SC523", "course_name": "Sociology of Northeast India" },
+    { "code": "SC524", "course_name": "Sociology of Religion" },
+    { "code": "SC525", "course_name": "Social Movements in India" },
+    { "code": "TM501", "course_name": "Fundamentals of Tourism" },
+    { "code": "TM502", "course_name": "Destination Geography, History and Heritage" },
+    { "code": "TM503", "course_name": "Fundamentals of Management" },
+    { "code": "TM504", "course_name": "Tourism and Travel Industry" },
+    { "code": "TM541", "course_name": "Finance and Accounting for Tourism" },
+    { "code": "TM542", "course_name": "Marketing in Tourism" },
+    { "code": "TM543", "course_name": "Human Resource Management" },
+    { "code": "TM544", "course_name": "Travel Agency and Tour Operation" },
+    { "code": "TM601", "course_name": "Research Methods in Tourism" },
+    { "code": "TM602", "course_name": "Tourism Entrepreneurship" },
+    { "code": "TM603", "course_name": "Foundation of Information Technology and CRS" },
+    { "code": "TM604", "course_name": "Hospitality Management" },
+    { "code": "TM641", "course_name": "Destination Planning and Management" },
+    { "code": "TM642", "course_name": "Sustainable Tourism" },
+    { "code": "TM643", "course_name": "Legal and Ethical Issues in Tourism" },
+    { "code": "ED201", "course_name": "Environmental Education" },
+    { "code": "ED202", "course_name": "Learner and Learning" },
+    { "code": "ED203", "course_name": "Contemporary Issues in Education" },
+    { "code": "ED204", "course_name": "Assessment and Evaluation" },
+    { "code": "ED205", "course_name": "Environmental Education" },
+    { "code": "ED301", "course_name": "Teaching Approaches and Strategies" },
+    { "code": "ED302", "course_name": "Classroom Organization and Management" },
+    { "code": "ED303", "course_name": "School Education in North East India" },
+    { "code": "ED404", "course_name": "Initial School Experience / Internship I" },
+    { "code": "ED405", "course_name": "School Internship II" },
+    { "code": "BD401", "course_name": "Human Growth and Development" },
+    { "code": "BD402", "course_name": "Contemporary Indian Education" },
+    { "code": "BD403", "course_name": "Language Across the Curriculum" },
+    { "code": "BD404", "course_name": "Understanding Disciplines" },
+    { "code": "BD405", "course_name": "Reading and Reflecting on Texts" },
+    { "code": "MA106", "course_name": "Philosophical Underpinnings of Education" },
+    { "code": "MA107", "course_name": "Psychology Foundations of Education" },
+    { "code": "MA108", "course_name": "Methodology of Educational Research" },
+    { "code": "MA109", "course_name": "Sociological Foundations of Education" },
+    { "code": "MA110", "course_name": "Teacher Education" },
+    { "code": "MA206", "course_name": "Educational Technology" },
+    { "code": "MA207", "course_name": "Measurement and Evaluation in Education" },
+    { "code": "MA208", "course_name": "Inclusive Education" },
+    { "code": "MA306", "course_name": "History of Education: India and World" },
+    { "code": "MA307", "course_name": "Statistics in Education" },
+    { "code": "MA308", "course_name": "Curriculum Studies" },
+    { "code": "MA405", "course_name": "Educational Administration and Management" },
+    { "code": "MA406", "course_name": "Politics and Economics of Education" },
+    { "code": "MA407", "course_name": "Principles and Techniques of Teaching" },
+    { "code": "MA408", "course_name": "Educational Guidance and Counselling" },
+    { "code": "BM701", "course_name": "Research Methods in Business" },
+    { "code": "BM714", "course_name": "Managerial Orientation" },
+    { "code": "BM715", "course_name": "Organisational Behaviour" },
+    { "code": "BM716", "course_name": "Emerging Trends in Human Resource Development" },
+    { "code": "BM717", "course_name": "Leading Change" },
+    { "code": "BM718", "course_name": "Financial Management Decisions" },
+    { "code": "BM719", "course_name": "Trends in Corporate Accounting" },
+    { "code": "BM720", "course_name": "Advanced Quantitative Research" },
+    { "code": "BM721", "course_name": "Advanced Marketing Management" },
+    { "code": "BM722", "course_name": "Consumer Psychology" },
+    { "code": "BM723", "course_name": "Service Marketing" },
+    { "code": "BM724", "course_name": "Entrepreneurship Development: Strategies and Models" },
+    { "code": "IC107", "course_name": "Business Organization and Environment" },
+    { "code": "IC108", "course_name": "Micro Economics" },
+    { "code": "IC110", "course_name": "English Comprehension Skill" },
+    { "code": "IC111", "course_name": "Business Regulatory Framework I" },
+    { "code": "IC112", "course_name": "Financial Accounting I" },
+    { "code": "IC122", "course_name": "Principles and Practice of Management" },
+    { "code": "IC124", "course_name": "Business Mathematics I" },
+    { "code": "IC126", "course_name": "Financial Accounting II" },
+    { "code": "IC127", "course_name": "Macro Economics" },
+    { "code": "IC201", "course_name": "Business Regulatory Framework II" },
+    { "code": "IC205", "course_name": "Functional Communicative Skill" },
+    { "code": "IC207", "course_name": "Inter-Personal Skills" },
+    { "code": "IC208", "course_name": "Basic Statistics" },
+    { "code": "IC209", "course_name": "Cost Accounting" },
+    { "code": "IC210", "course_name": "Corporate Accounting I" },
+    { "code": "IC222", "course_name": "Indirect Taxes" },
+    { "code": "IC224", "course_name": "Banking Laws and Practice" },
+    { "code": "IC225", "course_name": "Corporate Accounting II" },
+    { "code": "IC227", "course_name": "Fundamentals of Insurance" },
+    { "code": "IC228", "course_name": "Business Mathematics- II" },
+    { "code": "IC301", "course_name": "Company Law" },
+    { "code": "IC304", "course_name": "Income Tax – Law and Practice" },
+    { "code": "IC307", "course_name": "Entrepreneurship" },
+    { "code": "IC308", "course_name": "Business Finance" },
+    { "code": "IC309", "course_name": "Corporate Accounting III" },
+    { "code": "IC321", "course_name": "Computer and Its Application in Accounting and Taxation" },
+    { "code": "IC341", "course_name": "Computer and Its Application in Banking and Finance" },
+    { "code": "IC327", "course_name": "Auditing and Assurance" },
+    { "code": "IC342", "course_name": "Indian Financial Market and Financial System" },
+    { "code": "IC323", "course_name": "Management Accounting" },
+    { "code": "IC343", "course_name": "Financial Services" },
+    { "code": "IC324", "course_name": "Public Finance" },
+    { "code": "IC344", "course_name": "Banking Regulatory Framework" },
+    { "code": "IC325", "course_name": "Tax Planning and Procedures" },
+    { "code": "IC347", "course_name": "Capital Market Operations" },
+    { "code": "IC326", "course_name": "Dissertation (Accounting, Taxation Area)" },
+    { "code": "IC346", "course_name": "Dissertation (Banking, Finance Area)" },
+    { "code": "IC501", "course_name": "Organizational Theory and Behaviour" },
+    { "code": "IC502", "course_name": "Financial Statement Analysis" },
+    { "code": "IC503", "course_name": "Statistics for Business Decisions" },
+    { "code": "IC504", "course_name": "Corporate Governance and Business Ethics" },
+    { "code": "IC505", "course_name": "International Business" },
+    { "code": "IC521", "course_name": "Human Resource Management" },
+    { "code": "IC522", "course_name": "Marketing Management" },
+    { "code": "IC523", "course_name": "Managerial Economics" },
+    { "code": "IC524", "course_name": "Operations Research" },
+    { "code": "IC525", "course_name": "Methodology for Business Research" },
+    { "code": "IC602", "course_name": "Management Information System" },
+    { "code": "IC605", "course_name": "Project Work" },
+    { "code": "IC608", "course_name": "Strategic Management" },
+    { "code": "IC603", "course_name": "Corporate Financial Reporting" },
+    { "code": "IC604", "course_name": "Business Valuation" },
+    { "code": "IC606", "course_name": "Retail Banking" },
+    { "code": "IC607", "course_name": "Insurance Management" },
+    { "code": "IC625", "course_name": "Strategic Financial Management" },
+    { "code": "IC622", "course_name": "Strategic Cost and Management Accounting" },
+    { "code": "IC624", "course_name": "Corporate Tax Management" },
+    { "code": "IC631", "course_name": "Advanced Auditing" },
+    { "code": "IC633", "course_name": "Project Planning and Control" },
+    { "code": "IC626", "course_name": "Security Analysis and Portfolio Management" },
+    { "code": "IC627", "course_name": "International Finance" },
+    { "code": "IC634", "course_name": "Marketing of Financial Services" },
+    { "code": "IC632", "course_name": "Credit and Risk Management" },
+    { "code": "RP799", "course_name": "Research and Publication Ethics" },
+    { "code": "IC701", "course_name": "Research Methodology in Commerce" },
+    { "code": "IC702", "course_name": "Quantitative Modelling" },
+    { "code": "IC703", "course_name": "Term Paper" },
+    { "code": "IC704", "course_name": "Trends in Business and Economics Research" },
+    { "code": "CH401", "course_name": "Principles of Inorganic Chemistry" },
+    { "code": "CH403", "course_name": "Chemical and Statistical Thermodynamics" },
+    { "code": "CH407", "course_name": "Principles of Organic Chemistry" },
+    { "code": "CH409", "course_name": "Quantum Chemistry and Chemical Bonding I" },
+    { "code": "CH411", "course_name": "Principles and Applications of Spectroscopy" },
+    { "code": "CH405", "course_name": "Laboratory Course in Organic Chemistry" },
+    { "code": "CH408", "course_name": "Chemistry of Transition Elements" },
+    { "code": "CH410", "course_name": "Chemical Dynamics and Electrochemistry" },
+    { "code": "CH414", "course_name": "Quantum Chemistry and Chemical Bonding II" },
+    { "code": "CH412", "course_name": "Laboratory Course in Inorganic Chemistry" },
+    { "code": "CH418", "course_name": "Organic Reactions and Mechanism" },
+    { "code": "CH416", "course_name": "History of Chemistry" },
+    { "code": "CH501", "course_name": "Bio-Organic Chemistry" },
+    { "code": "CH519", "course_name": "Physical Chemistry of Surface and Condensed Systems" },
+    { "code": "CH521", "course_name": "Analytical Methods in Chemistry" },
+    { "code": "CH525", "course_name": "Organometallic Chemistry" },
+    { "code": "CH505", "course_name": "Laboratory Course in Physical Chemistry" },
+    { "code": "CH523", "course_name": "Chemical Technology and Society" },
+    { "code": "CH530", "course_name": "Project Work" },
+    { "code": "CH506", "course_name": "Catalysis" },
+    { "code": "CH508", "course_name": "Methods in Organic Synthesis" },
+    { "code": "CH528", "course_name": "Special Topics in Inorganic Chemistry" },
+    { "code": "CH532", "course_name": "Chemistry of Paints and Surface Coating" },
+    { "code": "CH514", "course_name": "Biomolecular Chemistry" },
+    { "code": "CH516", "course_name": "Computational Chemistry and Numerical Analysis" },
+    { "code": "CH518", "course_name": "Organic Solid State Chemistry" },
+    { "code": "CH520", "course_name": "Environmental and Green Chemistry" },
+    { "code": "CH534", "course_name": "Industrial Polymer" },
+    { "code": "CH522", "course_name": "Polymer Chemistry" },
+    { "code": "CH524", "course_name": "Heterocyclic Compounds and Medicinal Applications" },
+    { "code": "CH526", "course_name": "Bio-Inorganic Chemistry" },
+    { "code": "CH536", "course_name": "Chemistry of Materials" },
+    { "code": "ES551", "course_name": "Fundamentals of Environmental Science" },
+    { "code": "ES552", "course_name": "Statistical Methods and Environmental Application" },
+    { "code": "ES553", "course_name": "Ecology and Ecosystem Dynamics" },
+    { "code": "ES554", "course_name": "Earth Processes and Natural Hazards" },
+    { "code": "ES555", "course_name": "Environmental Chemistry and Toxicology" },
+    { "code": "ES559", "course_name": "Environmental Physics" },
+    { "code": "ES556", "course_name": "Solid Waste Management and Technology" },
+    { "code": "ES557", "course_name": "Climatology and Meteorology" },
+    { "code": "ES558", "course_name": "Environmental Biology" },
+    { "code": "ES573", "course_name": "Environmental Extension and Field Survey" },
+    { "code": "ES560", "course_name": "GIS Remote Sensing and Application" },
+    { "code": "ES572", "course_name": "Natural Resource and Biodiversity Conservation" },
+    { "code": "ES570", "course_name": "Environmental Laws and Policies" },
+    { "code": "ES548", "course_name": "Environmental Economics" },
+    { "code": "ES562", "course_name": "Analytical Methods" },
+    { "code": "ES564", "course_name": "Agriculture and Environmental Sustainability" },
+    { "code": "ES565", "course_name": "Environmental Pollution and Management" },
+    { "code": "ES566", "course_name": "Soil Science" },
+    { "code": "ES567", "course_name": "Environmental Plant Physiology and Biochemistry" },
+    { "code": "ES568", "course_name": "Hydrogeochemical Processes" },
+    { "code": "ES563", "course_name": "Environmental Impact Assessment" },
+    { "code": "ES579", "course_name": "Energy and Environment" },
+    { "code": "ES546", "course_name": "Environmental Biotechnology" },
+    { "code": "ES571", "course_name": "Climate Change and Its Impact" },
+    { "code": "ES545", "course_name": "Human Population, Social Issues and the Environment" },
+    { "code": "ES547", "course_name": "Agro-Forestry and Forest Management" },
+    { "code": "ES574", "course_name": "Laboratory Safety" },
+    { "code": "ES575", "course_name": "Atmospheric Chemistry" },
+    { "code": "ES541", "course_name": "Contemporary Environmental Issues" },
+    { "code": "ES542", "course_name": "Laboratory Guidance and Safety" },
+    { "code": "ES543", "course_name": "Environmental Economics and Management" },
+    { "code": "ES544", "course_name": "Introductory Air Pollution" },
+    { "code": "ES576", "course_name": "Environmental System Analysis" },
+    { "code": "ES577", "course_name": "Indoor Air Pollution and Human Health" },
+    { "code": "ES578", "course_name": "Environmental Pollution" },
+    { "code": "PD101", "course_name": "Physics I" },
+    { "code": "CD101", "course_name": "Chemistry I" },
+    { "code": "CD107", "course_name": "Chemistry Lab" },
+    { "code": "ED105", "course_name": "Basics in Computer Applications" },
+    { "code": "ED106", "course_name": "Education: An Evolutionary Perspective" },
+    { "code": "MD103", "course_name": "Foundation of Mathematics" },
+    { "code": "MD105", "course_name": "Real Analysis I" },
+    { "code": "ED104", "course_name": "Communicative English" },
+    { "code": "PD102", "course_name": "Physics II" },
+    { "code": "PD197", "course_name": "Physics Lab" },
+    { "code": "CD102", "course_name": "Chemistry II" },
+    { "code": "ED107", "course_name": "Education and Development" },
+    { "code": "MD104", "course_name": "Real Analysis II" },
+    { "code": "MD106", "course_name": "Group Theory" },
+    { "code": "NS102", "course_name": "National Service Scheme" },
+    { "code": "ES103", "course_name": "Environmental Studies" },
+    { "code": "MD221", "course_name": "Introductory Statistics and Probability" },
+    { "code": "MD223", "course_name": "Calculus I" },
+    { "code": "PD201", "course_name": "Physics III" },
+    { "code": "CD201", "course_name": "Chemistry III" },
+    { "code": "ED205", "course_name": "Environmental Education" },
+    { "code": "ED202", "course_name": "Learner and Learning" },
+    { "code": "DM301", "course_name": "Fundamentals of Disaster Management" },
+    { "code": "MD218", "course_name": "Introductory ODE and PDE" },
+    { "code": "MD220", "course_name": "Linear Algebra I" },
+    { "code": "MD222", "course_name": "Co-ordinate Geometry" },
+    { "code": "MD224", "course_name": "Numerical Methods and Boolean Algebra" },
+    { "code": "ED203", "course_name": "Contemporary Issues in Education" },
+    { "code": "ED204", "course_name": "Assessment and Evaluation" },
+    { "code": "MD311", "course_name": "Calculus II" },
+    { "code": "MD313", "course_name": "Programming Algorithm and Mathematical Software" },
+    { "code": "MD315", "course_name": "Statics and Dynamics" },
+    { "code": "MD317", "course_name": "Elementary Complex Analysis" },
+    { "code": "ED301", "course_name": "Teaching Approaches and Strategies" },
+    { "code": "ED302", "course_name": "Classroom Organization and Management" },
+    { "code": "MD318", "course_name": "Introductory Topology" },
+    { "code": "MD314", "course_name": "Elementary Number Theory" },
+    { "code": "MD316", "course_name": "Introduction to Optimization" },
+    { "code": "MD322", "course_name": "Seminar" },
+    { "code": "ED308", "course_name": "Pedagogy A: Physical Science I" },
+    { "code": "ED307", "course_name": "Pedagogy B: Mathematics I" },
+    { "code": "ED303", "course_name": "School Education in North East India" },
+    { "code": "MD425", "course_name": "Combinatorics" },
+    { "code": "MD414", "course_name": "Computer Programming" },
+    { "code": "MD421", "course_name": "Computer Lab" },
+    { "code": "ED408", "course_name": "Pedagogy A: Physical Science II" },
+    { "code": "ED407", "course_name": "Pedagogy B: Mathematics II" },
+    { "code": "ED404", "course_name": "Initial School Experience / Internship I" },
+    { "code": "MD422", "course_name": "Elementary Coding and Information Theory" },
+    { "code": "ED405", "course_name": "School Internship" },
+    { "code": "PI101", "course_name": "Physics I" },
+    { "code": "CI101", "course_name": "Chemistry I" },
+    { "code": "CI107", "course_name": "Chemistry Lab" },
+    { "code": "BI101", "course_name": "Biology I" },
+    { "code": "MI103", "course_name": "Foundation of Mathematics" },
+    { "code": "MI105", "course_name": "Real Analysis I" },
+    { "code": "EG101", "course_name": "Communicative English" },
+    { "code": "PI102", "course_name": "Physics II" },
+    { "code": "PI197", "course_name": "Physics Lab" },
+    { "code": "CI102", "course_name": "Chemistry II" },
+    { "code": "BI107", "course_name": "Biology Lab" },
+    { "code": "MI104", "course_name": "Real Analysis II" },
+    { "code": "MI106", "course_name": "Group Theory" },
+    { "code": "ES103", "course_name": "Environmental Studies" },
+    { "code": "MI221", "course_name": "Introductory Statistics and Probability" },
+    { "code": "MI223", "course_name": "Calculus I" },
+    { "code": "MI225", "course_name": "Combinatorics" },
+    { "code": "PI201", "course_name": "Physics III" },
+    { "code": "CI201", "course_name": "Chemistry III" },
+    { "code": "CS535", "course_name": "Introduction to Scientific Computing" },
+    { "code": "NS102", "course_name": "National Service Scheme" },
+    { "code": "MI218", "course_name": "Introductory ODE and PDE" },
+    { "code": "MI220", "course_name": "Linear Algebra I" },
+    { "code": "MI222", "course_name": "Co-ordinate Geometry" },
+    { "code": "MI224", "course_name": "Numerical Methods and Boolean Algebra" },
+    { "code": "MI226", "course_name": "Introductory Topology" },
+    { "code": "DM301", "course_name": "Fundamentals of Disaster Management" },
+    { "code": "MI311", "course_name": "Calculus II" },
+    { "code": "MI313", "course_name": "Programming, Algorithm and Mathematical Software" },
+    { "code": "MI315", "course_name": "Statics and Dynamics" },
+    { "code": "MI317", "course_name": "Elementary Complex Analysis" },
+    { "code": "MI319", "course_name": "Graph Theory" },
+    { "code": "MI312", "course_name": "Ring Theory" },
+    { "code": "MI314", "course_name": "Elementary Number Theory" },
+    { "code": "MI316", "course_name": "Introduction to Optimization" },
+    { "code": "MI318", "course_name": "Elementary Integral Transforms and Special Functions" },
+    { "code": "MI322", "course_name": "Seminar" },
+    { "code": "MI320", "course_name": "Elementary Coding and Information Theory" },
+    { "code": "MI412", "course_name": "Abstract Algebra" },
+    { "code": "MI417", "course_name": "Linear Algebra II" },
+    { "code": "MI413", "course_name": "Real Analysis III" },
+    { "code": "MI414", "course_name": "Computer Programming" },
+    { "code": "MI415", "course_name": "Lebesgue Measure and Integration" },
+    { "code": "MI421", "course_name": "Computer Lab" },
+    { "code": "MI408", "course_name": "Complex Analysis" },
+    { "code": "MI418", "course_name": "Theory of Ordinary Differential Equations" },
+    { "code": "MI419", "course_name": "Topology" },
+    { "code": "MI416", "course_name": "Numerical Analysis" },
+    { "code": "MI424", "course_name": "Computer Lab" },
+    { "code": "MI507", "course_name": "Partial Differential Equations" },
+    { "code": "MI510", "course_name": "Functional Analysis" },
+    { "code": "MI517", "course_name": "Project" },
+    { "code": "MI599", "course_name": "Probability Theory" },
+    { "code": "MI508", "course_name": "Mathematical Methods" },
+    { "code": "MI509", "course_name": "Classical Mechanics" },
+    { "code": "MI538", "course_name": "Theory of Partial Differential Equation" },
+    { "code": "MI539", "course_name": "Advanced Numerical Analysis" },
+    { "code": "MI541", "course_name": "Fluid Mechanics" },
+    { "code": "MI543", "course_name": "Relativity" },
+    { "code": "MI552", "course_name": "Operator Theory I" },
+    { "code": "MI554", "course_name": "Commutative Algebra" },
+    { "code": "MI558", "course_name": "General Theory of Relativity" },
+    { "code": "MI561", "course_name": "Stochastic Processes I" },
+    { "code": "MI565", "course_name": "Fuzzy Sets and Applications I" },
+    { "code": "MI566", "course_name": "Fourier Analysis" },
+    { "code": "MI567", "course_name": "Continuum Mechanics" },
+    { "code": "MI568", "course_name": "Theory of Distribution and Sobolev Spaces" },
+    { "code": "MI595", "course_name": "Numerical Solutions of ODE" },
+    { "code": "MI569", "course_name": "Coding Theory I" },
+    { "code": "MI570", "course_name": "Coding Theory II" },
+    { "code": "MI572", "course_name": "Operator Theory II" },
+    { "code": "MI573", "course_name": "Analytic Number Theory" },
+    { "code": "MI574", "course_name": "Galois Theory" },
+    { "code": "MI581", "course_name": "Stochastic Process II" },
+    { "code": "MI585", "course_name": "Fuzzy Sets and Applications II" },
+    { "code": "MI588", "course_name": "Applied Matrix Theory" },
+    { "code": "MI591", "course_name": "Computational Fluid Dynamics" },
+    { "code": "MI594", "course_name": "Advanced Topology I" },
+    { "code": "MI596", "course_name": "Advanced Topology II" },
+    { "code": "MI547", "course_name": "Numerical Linear Algebra" },
+    { "code": "LI101", "course_name": "Biology Major I (Biodiversity, Microbes, Algae, Fungi and Archegoniate)" },
+    { "code": "LI103", "course_name": "Biology Major I Lab" },
+    { "code": "LI102", "course_name": "Biology Major II (Animal Diversity)" },
+    { "code": "LI104", "course_name": "Biology Major II Lab" },
+    { "code": "LI201", "course_name": "Plant Ecology and Taxonomy" },
+    { "code": "LI203", "course_name": "Comparative Anatomy of Vertebrates" },
+    { "code": "LI205", "course_name": "Plant Anatomy and Embryology" },
+    { "code": "LI207", "course_name": "Biology Major III Lab (Anatomy: Plant and Animal)" },
+    { "code": "LI209", "course_name": "Introduction to Computing" },
+    { "code": "LI202", "course_name": "Genetics and Evolutionary Biology" },
+    { "code": "LI204", "course_name": "Microbiology" },
+    { "code": "LI206", "course_name": "Cell Biology I" },
+    { "code": "LI208", "course_name": "Biochemistry I" },
+    { "code": "LI210", "course_name": "Biology Lab IV (Biochemistry)" },
+    { "code": "LI212", "course_name": "Biology Lab V (Cell Biology)" },
+    { "code": "LI214", "course_name": "Seminar" },
+    { "code": "LI301", "course_name": "Plant Physiology" },
+    { "code": "LI303", "course_name": "Animal Physiology" },
+    { "code": "LI305", "course_name": "Basic Bioinformatics" },
+    { "code": "LI307", "course_name": "Molecular Biology" },
+    { "code": "LI309", "course_name": "Biology Lab VI (Physiology)" },
+    { "code": "LI311", "course_name": "Biology Lab VII (Molecular Biology)" },
+    { "code": "LI313", "course_name": "Public Health and Hygiene" },
+    { "code": "LI302", "course_name": "Immunology I" },
+    { "code": "LI304", "course_name": "Biocomputing and Biostatistics" },
+    { "code": "LI306", "course_name": "Developmental Biology" },
+    { "code": "LI308", "course_name": "Analytical Techniques" },
+    { "code": "LI310", "course_name": "Mini Project" },
+    { "code": "LI401", "course_name": "Biochemistry II" },
+    { "code": "LI403", "course_name": "Molecular Genetics" },
+    { "code": "LI405", "course_name": "Immunology II" },
+    { "code": "LI407", "course_name": "Biological Database Management System" },
+    { "code": "LI409", "course_name": "Cell Biology II" },
+    { "code": "LI411", "course_name": "Biology Lab VIII (Biochemistry)" },
+    { "code": "LI413", "course_name": "Biology Lab IX (Immunology)" },
+    { "code": "LI402", "course_name": "Biophysics and Structural Biology" },
+    { "code": "LI404", "course_name": "Genetic Engineering" },
+    { "code": "LI406", "course_name": "Applied Microbiology and Bioprocess Engineering" },
+    { "code": "LI408", "course_name": "Computational Biology" },
+    { "code": "LI410", "course_name": "Cell and Tissue Culture" },
+    { "code": "LI412", "course_name": "Biology Lab X (Genetic Engineering)" },
+    { "code": "LI414", "course_name": "Biology Lab XI (Applied Microbiology)" },
+    { "code": "LI501", "course_name": "Genomics and Proteomics" },
+    { "code": "LI503", "course_name": "Bioinformatics Software and Algorithm" },
+    { "code": "LI505", "course_name": "Lab on Advanced Programming" },
+    { "code": "LI507", "course_name": "Biosafety and IPR" },
+    { "code": "LI509", "course_name": "Plant Biotechnology" },
+    { "code": "LI511", "course_name": "Economic Botany" },
+    { "code": "LI513", "course_name": "Biology Lab XII (Plant Sciences)" },
+    { "code": "LI515", "course_name": "Animal Biotechnology" },
+    { "code": "LI517", "course_name": "Economic Zoology" },
+    { "code": "LI519", "course_name": "Biology Lab XII (Animal Science)" },
+    { "code": "LI502", "course_name": "Project I (Dissertation/Project)" },
+    { "code": "BT441", "course_name": "Biochemistry" },
+    { "code": "BT443", "course_name": "Cell Biology" },
+    { "code": "BT478", "course_name": "Microbiology" },
+    { "code": "BT447", "course_name": "Genetics" },
+    { "code": "BT449", "course_name": "Basics of Mathematics and Statistics" },
+    { "code": "BT451", "course_name": "Basics of Chemistry and Physics" },
+    { "code": "BT453", "course_name": "Lab I Biochemistry and Analytical Techniques" },
+    { "code": "BT455", "course_name": "Lab II Microbiology" },
+    { "code": "BT440", "course_name": "Molecular Biology" },
+    { "code": "BT442", "course_name": "Immunology" },
+    { "code": "BT444", "course_name": "Developmental Biology" },
+    { "code": "BT446", "course_name": "Bioinformatics" },
+    { "code": "BT448", "course_name": "Genomics and Proteomics" },
+    { "code": "BT450", "course_name": "Lab III Molecular Biology" },
+    { "code": "BT452", "course_name": "Lab IV Immunology" },
+    { "code": "BT454", "course_name": "Biophysical Methods and Emerging Technologies" },
+    { "code": "BT457", "course_name": "Genetic Engineering" },
+    { "code": "BT459", "course_name": "Molecular Diagnostics" },
+    { "code": "BT461", "course_name": "Bioprocess Engineering and Technology" },
+    { "code": "BT463", "course_name": "Plant Biotechnology" },
+    { "code": "BT465", "course_name": "Animal Biotechnology" },
+    { "code": "BT467", "course_name": "Microbial Biotechnology" },
+    { "code": "BT477", "course_name": "Computational Biology" },
+    { "code": "BT479", "course_name": "Nanobiotechnology" },
+    { "code": "BT499", "course_name": "Environmental Biotechnology" },
+    { "code": "BT469", "course_name": "Intellectual Property Rights, Biosafety and Bioethics" },
+    { "code": "BT471", "course_name": "Lab V Genetic Engineering" },
+    { "code": "BT473", "course_name": "Lab VI Bioprocess Engineering and Technology" },
+    { "code": "BT475", "course_name": "Critical Analysis of Classical Papers and Scientific Communication Skills" },
+    { "code": "BT462", "course_name": "Project" },
+    { "code": "BT466", "course_name": "Bioentrepreneurship" },
+    { "code": "PD101", "course_name": "Physics I" },
+    { "code": "PD103", "course_name": "General Physics I" },
+    { "code": "CD101", "course_name": "Chemistry I" },
+    { "code": "MD101", "course_name": "Mathematics I" },
+    { "code": "PD197", "course_name": "Physics Lab I" },
+    { "code": "ED106", "course_name": "Education: An Evolutionary Perspective" },
+    { "code": "ED104", "course_name": "Communicative English (Language Proficiency)" },
+    { "code": "ED105", "course_name": "Basics in Computer Applications" },
+    { "code": "PD102", "course_name": "Physics II" },
+    { "code": "PD104", "course_name": "General Physics II" },
+    { "code": "CD102", "course_name": "Chemistry II" },
+    { "code": "MD102", "course_name": "Mathematics II" },
+    { "code": "PD198", "course_name": "Physics Lab II" },
+    { "code": "CD107", "course_name": "Chemistry Laboratory" },
+    { "code": "ES103", "course_name": "Environmental Studies" },
+    { "code": "ED102", "course_name": "Education and Development" },
+    { "code": "NS106", "course_name": "National Service Scheme" },
+    { "code": "PD203", "course_name": "Classical Mechanics" },
+    { "code": "PD301", "course_name": "Mathematical Physics I" },
+    { "code": "CD201", "course_name": "Chemistry III" },
+    { "code": "ED201", "course_name": "Environmental Education" },
+    { "code": "ED202", "course_name": "Learner and Learning" },
+    { "code": "MD219", "course_name": "Mathematics III" },
+    { "code": "PD297", "course_name": "Physics Lab III" },
+    { "code": "PD205", "course_name": "Electromagnetism" },
+    { "code": "PD214", "course_name": "Electronics" },
+    { "code": "PD218", "course_name": "Modern Physics" },
+    { "code": "PD216", "course_name": "Thermodynamics and Statistical Physics" },
+    { "code": "PD298", "course_name": "Physics Lab IV" },
+    { "code": "PD303", "course_name": "Physical and Geometrical Optics" },
+    { "code": "PD202", "course_name": "Introductory Quantum Mechanics" },
+    { "code": "PD315", "course_name": "Mathematical Physics II" },
+    { "code": "PD309", "course_name": "Analog Electronics and Communications" },
+    { "code": "PD204", "course_name": "Atomic and Nuclear Physics" },
+    { "code": "PD399", "course_name": "Physics Lab V" },
+    { "code": "PD307", "course_name": "Basic Material Science" },
+    { "code": "PD317", "course_name": "Basic Computational Techniques" },
+    { "code": "PD311", "course_name": "Waves and Acoustics" },
+    { "code": "PD300", "course_name": "Physics Lab VI" },
+    { "code": "PD308", "course_name": "Laser Physics" },
+    { "code": "PD400", "course_name": "Laboratory VII" },
+    { "code": "PD314", "course_name": "Measurement Physics" },
+    { "code": "ED301", "course_name": "Teaching Approaches and Strategies" },
+    { "code": "ED302", "course_name": "Classroom Organization and Management" },
+    { "code": "ED303", "course_name": "School Education in NE India" },
+    { "code": "ED308", "course_name": "Pedagogy A: Physical Science I" },
+    { "code": "ED307", "course_name": "Pedagogy B: Mathematics I" },
+    { "code": "ED309", "course_name": "Pedagogy B: Bio Science I" },
+    { "code": "ED408", "course_name": "Pedagogy A: Physical Sciences II" },
+    { "code": "ED407", "course_name": "Pedagogy B: Mathematics II" },
+    { "code": "ED409", "course_name": "Pedagogy B: Bio Science II" },
+    { "code": "ED404", "course_name": "Initial School Experience / School Internship I" },
+    { "code": "ED405", "course_name": "School Internship" },
+    { "code": "PI101", "course_name": "Physics I" },
+    { "code": "PI103", "course_name": "General Physics I" },
+    { "code": "CI101", "course_name": "Chemistry I" },
+    { "code": "PI197", "course_name": "Physics Lab I" },
+    { "code": "EG110", "course_name": "Communicative English" },
+    { "code": "PI102", "course_name": "Physics II" },
+    { "code": "PI104", "course_name": "General Physics II" },
+    { "code": "PI198", "course_name": "Physics Lab II" },
+    { "code": "PI203", "course_name": "Classical Mechanics" },
+    { "code": "PI217", "course_name": "Mathematical Physics I" },
+    { "code": "PI205", "course_name": "Electromagnetism" },
+    { "code": "PI214", "course_name": "Electronics" },
+    { "code": "PI325", "course_name": "Thermodynamics and Statistical Physics" },
+    { "code": "PI218", "course_name": "Modern Physics" },
+    { "code": "PI298", "course_name": "Physics Lab IV" },
+    { "code": "PI303", "course_name": "Physical and Geometrical Optics" },
+    { "code": "PI315", "course_name": "Mathematical Physics II" },
+    { "code": "PI204", "course_name": "Atomic and Nuclear Physics" },
+    { "code": "PI308", "course_name": "Laser Physics" },
+    { "code": "PI399", "course_name": "Physics Lab V" },
+    { "code": "PI307", "course_name": "Basic Material Science" },
+    { "code": "PI317", "course_name": "Basic Computation Techniques" },
+    { "code": "PI314", "course_name": "Measurement Physics" },
+    { "code": "PI311", "course_name": "Waves and Acoustics" },
+    { "code": "PI403", "course_name": "Electromagnetic Theory I" },
+    { "code": "PI413", "course_name": "Advanced Classical Mechanics" },
+    { "code": "PI414", "course_name": "Quantum Mechanics I" },
+    { "code": "PI416", "course_name": "Condensed Matter Physics and Material Science" },
+    { "code": "PI405", "course_name": "Semiconductor Devices" },
+    { "code": "PI552", "course_name": "Quantum Mechanics II" },
+    { "code": "PI551", "course_name": "Electromagnetic Theory II" },
+    { "code": "PI417", "course_name": "Advanced Mathematical Physics" },
+    { "code": "PI559", "course_name": "Project I" },
+    { "code": "PI402", "course_name": "Nuclear and Particle Physics" },
+    { "code": "PI553", "course_name": "Atomic and Molecular Spectroscopy" },
+    { "code": "PI500", "course_name": "Project II" },
+    { "code": "PI501", "course_name": "Quantum Field Theory" },
+    { "code": "PI507", "course_name": "Digital Signal Processing" },
+    { "code": "PI508", "course_name": "Digital Communication Systems" },
+    { "code": "PI510", "course_name": "Advanced Condensed Matter Physics and Material Science" },
+    { "code": "PI516", "course_name": "Microprocessors and Digital Signal Processing Based Systems" },
+    { "code": "PI517", "course_name": "Microwave Systems and Antenna Propagation" },
+    { "code": "PI540", "course_name": "Particle Physics" },
+    { "code": "PI521", "course_name": "Fundamentals of Plasma Physics" },
+    { "code": "PI525", "course_name": "Nonlinear Plasma Physics" },
+    { "code": "PI557", "course_name": "Photonics" },
+    { "code": "PI559", "course_name": "Nanophotonics" },
+    { "code": "PI562", "course_name": "Quantum Effects in Low Dimensional Systems" },
+    { "code": "PI563", "course_name": "Physics of Nano Devices" },
+    { "code": "PI564", "course_name": "Introductory Astrophysics" },
+    { "code": "PI565", "course_name": "Elements of GTR and Cosmology" },
+    { "code": "PH405", "course_name": "Semiconductor Devices" },
+    { "code": "PH408", "course_name": "Electromagnetic Theory I" },
+    { "code": "PH416", "course_name": "Condensed Matter Physics and Material Science" },
+    { "code": "PH417", "course_name": "Advanced Classical Mechanics" },
+    { "code": "PH418", "course_name": "Quantum Mechanics I" },
+    { "code": "PH411", "course_name": "Statistical Physics" },
+    { "code": "PH412", "course_name": "Analog and Digital Electronics" },
+    { "code": "PH551", "course_name": "Electromagnetic Theory II" },
+    { "code": "PH552", "course_name": "Quantum Mechanics II" },
+    { "code": "PH500", "course_name": "Project I" },
+    { "code": "PH415", "course_name": "Nuclear and Particle Physics" },
+    { "code": "PH553", "course_name": "Atomic and Molecular Spectroscopy" },
+    { "code": "PH599", "course_name": "Project II" },
+    { "code": "MR701", "course_name": "Research Methodology" },
+    { "code": "MR702", "course_name": "Literature Review" },
+    { "code": "MR703", "course_name": "Philosophy of Research" },
+    { "code": "MR704", "course_name": "History of Science" },
+    { "code": "MR705", "course_name": "Reductionist and Holistic Approaches to Life and Research" },
+    { "code": "RP799", "course_name": "Research and Publication Ethics" },
+    { "code": "WS103", "course_name": "Women's Movement in India" },
+    { "code": "WS104", "course_name": "Introducing Women's Studies" },
+    { "code": "WS105", "course_name": "Women in Media" },
+    { "code": "WS106", "course_name": "Women and Health" },
+    { "code": "WS107", "course_name": "Women's Studies and Research Methodology" },
+    { "code": "WS108", "course_name": "Women and Law" },
+    { "code": "WS109", "course_name": "Women and Development" },
+    { "code": "WS110", "course_name": "Project Work / Dissertation" },
+    { "code": "CG401", "course_name": "Understanding Childhood" },
+    { "code": "CG402", "course_name": "Child Rights as Human Rights Part I" },
+    { "code": "CG403", "course_name": "Vulnerabilities of Children in the North East" },
+    { "code": "CG404", "course_name": "Field Work / Observational Field Visit" },
+    { "code": "CG405", "course_name": "Communication Skills (English)" },
+    { "code": "CG406", "course_name": "Social Policies for Children" },
+    { "code": "CG407", "course_name": "Child Rights as Human Rights Part II" },
+    { "code": "CG408", "course_name": "Governance and Child Rights" },
+    { "code": "CG409", "course_name": "Research in Child Rights" },
+    { "code": "CG410", "course_name": "Research Project / Dissertation" },
+    { "code": "MEMT583", "course_name": "Physics of Manufacturing Processes" },
+    { "code": "MEMT514", "course_name": "Computer Aided Design and Manufacturing" },
+    { "code": "MEMT584", "course_name": "Automation in Manufacturing" },
+    { "code": "MEMT530", "course_name": "Numerical Methods" },
+    { "code": "MEMT515", "course_name": "Experimental Methods in Design and Manufacturing" },
+    { "code": "MEMT594", "course_name": "Term Paper" },
+    { "code": "MEMT615", "course_name": "MTech Thesis Part I" },
+    { "code": "MEMT616", "course_name": "MTech Thesis Part II" },
+    { "code": "ECST502", "course_name": "Semiconductor Physics" },
+    { "code": "ECST503", "course_name": "Semiconductor Device" },
+    { "code": "ECST504", "course_name": "IC Fabrication Technology" },
+    { "code": "ECST509", "course_name": "Semiconductor Characterization Lab" },
+    { "code": "ECST510", "course_name": "Internship - Exposure to Semiconductor Facility" },
+    { "code": "ECST505", "course_name": "Nanomaterials: Synthesis and Characterization" },
+    { "code": "ECST506", "course_name": "MEMS and Microsystem Technology" },
+    { "code": "ECST507", "course_name": "Fundamentals of Optoelectronic Devices" },
+    { "code": "ECST508", "course_name": "Semiconductor Device for Energy Application" },
+    { "code": "ECST513", "course_name": "Advance Semiconductor Devices" },
+    { "code": "ECST514", "course_name": "CMOS Circuit Design" },
+    { "code": "ECST515", "course_name": "VLSI Physical Design" },
+    { "code": "ECST520", "course_name": "Device Fabrication Lab" },
+    { "code": "ECST516", "course_name": "Semiconductor Packaging and Assembly" },
+    { "code": "ECST517", "course_name": "Sensor System" },
+    { "code": "ECST518", "course_name": "Flexible Electronics" },
+    { "code": "ECST519", "course_name": "Materials for Quantum Technology" },
+    { "code": "ECST602", "course_name": "Project Work" },
+    { "code": "ECST603", "course_name": "Project Work" }
   ]
 }
 
-
-
-MS 201 Mathematics III 3 EL 205 Integrated Circuits 4
-EL 201 Switching Circuits & Digital Logic 4 EL 206 Principles of Communication 4
-EL 202 Electrical Technology 4 EL 207 Instrumentation 4
-EL 203 Analog Electronic Devices and Circuits 4 EL 208 Engineering Electromagnetics 3
-EL 204 Signals and Systems 3 CO 221 Data Structures and Object Oriented
-Programming 4
-CO 205 Computer Architecture and Organization 4 CO 222 System Software & Operating systems 4
-Semester V Semester VI
-EL 301 Digital Communication 4 EL 306 Communication Networks 4
-EL 302 Microprocessors and Interfacing 4 EL 307 Device Modeling & Simulation 4
-EL 303 Digital Signal Processing 4 EL 308 VLSI Design 4
-EL 304 Control System Engineering 4 BM 302 Social Responsibility and Professional
-Ethics in Engineering 3
-EL 305 Microwave Engineering 4 ECE Elective I 3
-BM 301 Fundamentals of Management 
-
-EL 401 Digital Systems Design and VHDL 4 - ECE Elective IV 3
-- ECE Elective II 3 - Open Elective III 3
-- ECE Elective III 3 EL 482 Project II 12
-- Open Elective II 3
-EL 471 Industrial Summer Training 2
-EL 481 Project I 6
-CODE COURSE NAME CR CODE COURSE NAME CR
-Electives
-EL 421 Image Processing 3 EL 422 Electronic Design Automation 3
-EL 423 Medical Electronics 3 EL 424 Fiber Optic Communication 3
-EL 425 Mobile Communication 3 EL 426 Fuzzy Logic and Neural Networks 3
-EL 427 Satellite Communication Systems 3 EL 428 Information and Coding Theory 3
-EL 429 Graph Theory 3 EL 430 Computer Vision 3
-EL 431 MEMS and Microsystems Technology 3 EL 432 Advance Semiconductor Devices 3
-EL 433 Biomedical Signal Processing 3 EL 434 Bioneuro Engineering 3
-EL 435 Nanoelectronics 3 EL 436 Intelligent Instrumentation 3
-EL 437 Wireless Communication 3 EL 438 Digital Signal Processor 
-
-
-MS 201 Mathematics III 3 MS 202 Mathematics IV 3
-ME 201 Solid Mechanics 4 ME 207 'Theory of Mechanisms & Machines 4
-ME 202 Fluid Mechanics I 3 ME 208 Manufacturing Technology I 3
-ME 203 Material Science 3 ME 209 Fluid Mechanics II 3
-ME 204 Machine Drawing 2 ME 210 Mechanical Engineering Laboratory II 3
-ME 205 Thermodynamics 4 CO 221 Data Structures & Object Oriented
-Programming 4
-ME 206 Mechanical Engineering Laboratory I 3 EL 202 Electrical Technology 4
-Semester V Semester VI
-ME 301 Dynamics & Vibration of Machinery 3 ME 307 Applied Thermodynamics II 3
-ME 302 Mechanical Measurements &
-Instrumentation 3 ME 308 Heat & Mass Transfer 4
-ME 303 Manufacturing Technology II 3 ME 309 Systems & Control 3
-ME 304 Applied Thermodynamics I 3 ME 310 Mechanical Engineering Laboratory II 3
-ME 305 Mechanical Design 4 BM 322 Social Responsibility & Professional
-Ethics in Engineering 3
-ME 306 Advanced Workshop Practice 3 ME Elective I 3
-BM 321 Fundamentals of Management 
-
-
-
-ME 401 Industrial Systems Engineering 3 - ME Elective IV 3
-- ME Elective II 3 - Open Elective III 3
-- ME Elective III 3 ME 482 Project II 12
-- Open Elective II 3
-ME 471 Industrial Summer Training 2
-ME 481 Project I 6
-Electives
-ME 421 Computer Graphics & Solid Modeling 3 ME 422 Optimization Methods in Engineering 3
-ME 423 Mechanical Vibration 3 ME 424 Theory of Elasticity 3
-ME 425 Machine Tools & Machining 3 ME 426 Reliability Engineering 3
-ME 427 Productivity Improvement Techniques 3 ME 428 Finite Element Methods in
-Engineering 3
-ME 429 Gas Turbine & Compressor 3 ME 430 Value Engineering 3
-ME 431 Fracture and Fatigue 3 ME 432 Engineering Optimization 3
-ME 433 Experimental Stress Analysis 3 ME 434 Composite Materials 3
-ME 435 Machine Tool Design 3 ME 436 Combustion Engineering 3
-ME 437 Tea Machineries 3 ME 438 Petroleum & Drilling Technology 3
-ME 439 Refrigeration and Air Conditioning 3 ME 440 Advanced Solid Mechanics 3
-ME 521 Robotics 3 ME 522 Quality Engineering 3
-ME 523 Non-Conventional Energy 3 ME 524 Operations Management 3
-ME 525 Tribology 3 ME 526 Modern Control System 3
-ME 527 Computer Aided Design 3 ME 528 Computer Aided Process Planning 3
-ME 529 Artificial Intelligence in Engineering 3 ME 531 Project Management 3
-ME 532 Power Plant Engineering 3 ME 533 Energy Management 3
-ME 534 Mechatronics
-
-
-AC 401 Inorganic Chemistry -I 3 AC 407 Inorganic Chemistry – II 3
-AC 402 Organic Chemistry - I 3 AC 408 Organic Chemistry – II 3
-AC 403 Physical Chemistry - I 3 AC 409 Physical Chemistry – II 3
-AC 404 Quantum Chemistry and Chemical
-Bonding 3 AC 410 Computers In Chemistry 4
-AC 405 Physical Chemistry, Laboratory 3 AC 411 Principles and applications of
-Spectroscopy 3
-AC 406 Inorganic Chemistry, Laboratory 3 AC 412 Organic Chemistry Laboratory 4
-AC 413 Seminar 
-
-AC 501 Chemical Engineering Principles 3 Elective – V 3
-Elective - I 3 Elective – VI 3
-Elective - II 3 Elective – VII 3
-Elective - III 3 AC 529 M. Sc. Project 9
-Elective - IV 3
-Elective - Laboratory Courses 
-
-AC 502 Polymer Analysis, Testing and
-Characterization AC 510 Introduction to Polymer
-Composites
-AC 503 Medicinal Chemistry - I AC 511 Advanced Analytical Techniques
-AC 518 Fundamentals of Catalysis and
-Surface Science Elective - Laboratory Course
-Elective - II AC 512 Polymer Synthesis and Analysis
-Laboratory
-AC 505 Fundamentals of Polymers and their
-Processing AC 513 Advanced Laboratory Course in
-Organic Chemistry - l
-AC 506 Environmental and Green
-Chemistry AC 514 Advanced Laboratory Course in
-Organic Chemistry-II
-Elective -III AC 515 Catalysis Laboratory
-AC 507 Rubber Science and Technology
-AC 508 Molecular Modeling of Organic and
-Inorganic Compounds
-AC 509 Natural Products
-Elective - V Elective - VII
-AC 516 Production of Industrial Polymer AC 523 Chemistry of Paints and Surface
-Coatings
-AC 517 Newer Methods in Organic
-Synthesis AC 524 Basic Fibre Science
-AC 504 Solid State Chemistry AC 525 Biodegradable Polymers
-Elective - VI AC 526 Bioinorganic and Biophysical
-Chemistry
-AC 519 Polymer Physics and Rheology AC 527 Medicinal Chemistry - III
-AC 520 Medicinal Chemistry - II AC 528 Heterogeneous Catalysis
-AC 521 Bioactive Molecules
-AC 522 Homogeneous Catalysis
-
-BT 401 Genetics & Cytogenetic 3 BT 402 Cell Biology 3
-BT 403 Biochemistry 4 BT 404 Microbiology 4
-BT 405 Remedial Mathematics BT 406 Biophysics 2
-BT 407 Techniques and instrumentation 3 BT 408 Enzymes and Enzyme Technology 3
-CODE COURSE NAME CR CODE COURSE NAME CR
-BT 409 Immunology 4 BT 410 Molecular Biology & Genetics 4
-BT 411 Cell and Tissue Culture 4 BT 412 Fermentation and Process Control 4
-BT 413 Genetic Engineering I 4 BT 414 Application of Computer in
-Biotechnology 3
-BT 418 Credit Seminar 2 BT 419 Genetic Engineering II 4
-BT 421 Project 14 BT 420 Management & Legal Issues in
-Biotechnology 2
-Elective Courses
-BT 415 Animal Biotechnology 4 BT 416 Plant Biotechnology 4
-BT 417 Food Biotechnology 4 
-
-MS 401 Abstract Algebra 4 MS 408 Topology 4
-MS 403 Linear Algebra 4 MS 410 Functional Analysis 4
-MS 405 Real Analysis 4 MS 424 Computer Laboratory II 1
-MS 409 Probability & Statistics 4 MS 501 Classical Mechanics 4
-MS 411 Computer Programming+ 4 MS 507 Partial Differential Equations 4
-MS 421 Computer Laboratory I 2 MS 508 Mathematical Methods 4
-MS 416 Numerical Analysis+ 3 MS 503 Mathematical Programming 4
-MS 414 Ordinary Differential Equations 4 MS 513 Project 6
-MS 406 Complex Analysis 4
-+ Course for which there is a separate practical unit assigned as Computer Lab
-Elective Courses
-MS 541 Fluid Mechanics 4 MS 572 Operations Theory -II 4
-MS 542 Electrodynamics 4 MS 573 Number Theory 4
-MS 543 Relativity 4 MS 574 Advanced Algebra - II 4
-MS 544 Operation Research 4 MS 576 Quantum Mechanics -II 4
-MS 545 Elliptic Curves 4 MS 576 Mathematical Modelling-I 4
-MS 546 Algebraic Number Theory 4 MS 578 High Energy Astrophysics 4
-MS 547 Numerical Linear Algebra 4 MS 579 Mag. Hydr. & Plasma Physics -II 4
-MS 548 Mathematical Logic 4 MS 580 Sampling Techniques -II 4
-MS 549 Graph Theory 4 MS 581 Stochastic Processes - II 4
-MS 552 Operator Theory 4 MS 582 Reliability Theory 4
-MS 553 Number Theory I 4 MS 583 Advance Analysis –II 4
-MS 554 Advanced Algebra - I 4 MS 584 Multivariate Analysis -I
-
-
-MS 556 Quantum Mechanics -I 4 MS 585 Fuzzy Sets & Applications-I 4
-MS 557 Mathematical Modelling-I 4 MS 586 Parallel Numerical Algorithms 4
-MS 558 General Theory of Relativity 4 MS 587 Finite Element Method 4
-MS 559 Mag. Hydr. & Plasma Physics -I 4 MS 588 Applied Matrix Theory 4
-MS 560 Sampling Techniques -I 4 MS 591 Computational Fluid Dynamics 4
-MS 561 Stochastic Processes - I 4 MS 591 Computational Fluid Dynamics 4
-MS 562 Statistical Quality Control 4 MS 593 Wavelets and Applications 4
-MS 563 Advance Analysis –I 4 MS 594 Advanced Topology-I 4
-MS 564 Multivariate Analysis -I 4 MS 595 Numerical Solutions of ODE 4
-MS 565 Fuzzy Sets & Applications-I 4 MS 596 Advanced Topology-II 4
-MS 566 Fourier Analysis 4 MS 597 Numerical Solutions of PDE 4
-MS 567 Continuum Mechanics 4 MS 598 Algebraic Geometry 4
-MS 568 Theory of Distribution and
-Sobolev Spaces 4 MS 599 Probability Theory
-
-
-SM 611 Continuum Mechanics 4 SM 623 Computational Seismology 6
-SM 612 Stochastic Processes & Time
-Series Analysis 4 SM 622 Inverse Theory and Statistical
-Inference 4
-SM 613 Physics of the Earth and
-Geodynamics 4 SM 621 Mathematical Methods in
-Seismology 4
-SM 614 Computational Techniques &
-Programming 4 SM 615 Finite Element Methods and
-Optimization Techniques 4
-SM 610 Computational Laboratory-I 5 SM 620 Computational Laboratory -II 6
-SM 640 M. Tech Dissertation- I 10 SM 650 M. Tech Dissertation- II 14
-Elective Courses
-SM 631 Computer Graphics and
-Visualization 4 SM 637 Structural Dynamics & Earthquake
-Engineering 4
-SM 632 Pattern Recognition in Geosciences 4 SM 638 Fuzzy Set Theory & Applications 4
-SM 634 Digital Signal Processing 4 SM 639 Geo-informatics & Data Analysis 4
-SM 635 Advanced in Seismology 4 
-
-
-PH 400 Physics Lab - I 5 PH 411 Statistical Physics 3
- PH 402 Quantum Mechanics - I 3 PH413 Computational Techniques 3
- PH 403 Mathematical Methods of Physics - I 3 PH 415 Nuclear Theory & Particle
-Physics 3
- PH 404 Electromagnetic Theory - I 3 PH499 Physics Lab - II 5
-PH 405 Semiconductor Devices 3 PH500 Project Work - I 5
-PH 407 Quantum Mechanics - II 3 PH501 Condensed Matter Physics &
-Material Science - I 3
-PH 409 Mathematical Methods of Physics-II 3 PH503 Atomic & Molecular Physics 3
-PH 410 Analog & Digital Electronics 4 PH599 Project Work - II 
-
-PH 401 Classical Mechanics 3 PH521 Introduction to Parton Models 3
-PH 504 Laser Physics 3 PH522 Communication Systems 3
-PH 505 Coherent Optical System 3 PH523 Microwaves 3
-PH 506 Physics of thin Film 3 PH524 Digital Signal Processing 3
-PH 507 Physics of Low Temperature 3 PH525 Microprocessor & Digital
-Signal Processing Based System 3
-PH 509 Condensed Matter Physics &
-MaterialScience - II 3 PH526 Plasma Physics-I 3
- PH 510 Fibre Optics & Optoelectronics 3 PH527 Plasma Physic - II 3
- PH 511 Image Processing 3 PH528 Solid State lonics 3
- PH 512 Physics of Remote Sensing 3 PH529 Advanced Material Science 3
-PH 513 Photonics Devices 3 PH530 Nano Structures - I 3
-PH 514 Super Conductivity & Critical
-Phenomena 3 PH531 Nano Structure- II 3
-PH 515 Physics of Integrated Circuits 3 PH532 Quantum Electrodynamics 3
-PH 516 Probes of Solid State Physics 3 PH 533 General Theory of Relativity 3
-PH 517 Physics of Solid State Devices 3 PH 534 Astrophysics and Cosmology 3
-PH 519 Quantum Field Theory 3 PH 535 Electromagnetic Theory - II 3
-PH 520 Modern Particle Physics 
-
-NS 401 Quantum Mechanics 3 NS 413 Measurement & Analysis
-Lab - I 5
-NS 402 Electronics 3 NS 414 Instrumental Methods of
-Analysis 4
-NS 403 Computational Techniques 3 NS 415 Measurement & Analysis
-Lab -II 5
-NS 404 Basic Polymer Science 3 NS 501 Surface Science 3
-NS 405 Cell & Molecular Architecture of
-Cells 3 NS 502 Optical Properties of
-Nonostructures 3
-NS 407 Statistical Physics 3 NS 503 Electrical & Magnetic
-Properties of Nanostructures 3
-NS 408 Condensed Matter Physics 3 NS 504 Biosynthesis of Nonoparticles
-& Applications 3
-NS 410 Nanostructures 3 NS 505 Minor Project 5
-NS 411 Fundamentals of Molecular Biology
-& Elements of Immunology 3 NS 506 Major Project 12
-
-FP 401 Principles of Food Processing 3 FP 502 Recent Advances in Food
-Science 1
-FP 402 Food Chemistry 3 FP 505 Packaging Technology 3
-FP 403 Food Analysis 3 FP 506 Food Product Development 2
-FP 404 Food Process Engineering I 3 FP 507 Business Management 3
-FP 405 Biochemistry and Nutrition 4 FP 508 Seminar 1
-FP 406 Food Quality Assurance 2 FP 509 Project Work 10
-FP 501 Food Process Engineering II 3 MS 400 Applied Mathematics &
-Statistics 4
-BT 404 Microbiology 4 BT 422 Food Microbiology 3
-BT 412 Fermentation and Process Control 4 FP 510 Basic Electronics 3
-BT 417 Food Biotechnology 4 FP 511 Applications of Electronics in
-Food Processing 3 
-
-
-FP 407 Technology of Cereals and
-Legumes 3 FP 410 Technology of Plantation
-Products
-FP 408 Technology of Milk and Milk
-Products 3 FP 503 Technology of Fish, Meat and
-Poultry 3
-FP 409 Technology of Fruits and
-Vegetables 3 FP 504 Technology of Oilseeds and
-Fats 
-
-CS 531 Objective Oriented Programming
-& Design
-5 IT 610 Advanced Database System 4
-CS 601 Design and Analysis of
-Algorithms
-3 CS 634 Selected Topics in Computer
-Networks
-4
-IT 611 Distributed Systems 3 IT 604 Term Project –I 8
-IT 605 Term Project- II 16
-Elective Courses
-CS 502 System Software 3 CS 528 Digital Signal Processing 4
-CS 505 Software Engineering 4 CS 529 Embedded Systems 4
-CS 507 Computer Networks 4 CS 531 Object Oriented
-Programming & Design
-5
-CS 508 Database Management System 5 CS 532 Compiler Design 4
-CS 509 Data Communication 4 CS 602 Image Processing 3
-IT 503 Multimedia Systems 4 CS 607 Optimization Technique 3
-IT 504 E-Commerce 3 CS 606 Computer Architecture &
-Parallel Processing
-3
-IT 506 Logic Programming 3 CS 610 Bioinformatics 3
-IT 521 Programming and Data Structure 4 IT 509 Data Mining & Data
-Warehousing
-4
-IT 522 Computer Architecture 4 IT 510 Advanced Operating Systems 4
-IT 523 Discrete Mathematics 3 CS 621 Mobile Computing 4
-IT 524 Formal Language and Automata 3 CS 622 Software Testing, Quality
-Assurance and Maintenance
-4
-IT 518 Graph Theory 4 CS 623 Randomized Algorithms 3
-CS 522 Computer Graphics 4 CS 624 Web Technology 4
-CS 523 Enterprise Resource Planning 3 CS 625 Intelligent Assistive Systems 3
-CS 524 Theory of Computation 3 CS 725 Knowledge Representation &
-Reasoning
-4
-CS 525 Artificial Intelligence 3 CS 727 Formal Verification 4
-CS 731 Data Mining in Security 
-
-CS 404 Programming & Problem Solving 5 CS 502 System Software 3
-CS 405 Discrete Mathematics 3 CS 504 Operating System 4
-CS 406 Digital Logic 4 CS 505 Software Engineering 4
-CS 407 Information and Communication
-Technology
-4 CS 507 Computer Networks 4
-CS 403 File Structures 2 CS 508 Database Management 5
-CS 408 Data Structures 5 CS 509 Data Communication 4
-CS 409 Comp. Organization &
-Architecture
-5 CS 514 Minor Project 8
-CS 515 Major Project 
-
-CS 421 Graph Theory 3 CS 601 Design & Analysis of
-Algorithms
-3
-CS 422 Numerical Methods 4 CS 602 Image Processing 3
-CS 423 Graphical User Interface
-Programming
-3 CS 604 Optimization Techniques 3
-CS 424 Formal Language & Automata 3 CS 605 Simulation & Modeling 4
-CS 522 Computer Graphics 4 CS 606 Computer Architecture &
-Parallel Processing
-3
-CS 523 Enterprise Resource Planning 3 CS 609 Geographic Information
-Systems
-3
-CS 524 Theory of Computation 3 CS 610 Bioinformatics 3
-CS 525 Artificial Intelligence 3 IT 611 Distributed Systems 3
-CS 526 Management Information
-Systems
-3 CS 621 Mobile Computing 4
-CS 528 Digital Signal Processing 3 CS 622 Software Testing Quality
-Assurance and Maintenance
-4
-CS 529 Embedded System 4 CS 623 Randomized Algorithms 3
-CS 530 Social & Professional Issues in
-Computing
-3 CS 624 Web Technology 4
-CS 531 Object Oriented Programming &
-Design
-5 CS 625 Intelligent Assistive Systems 3
-CS 532 Compiler Design 4 BM 421 Accounting & Financial
-Management
-3
-IT 503 Multimedia Systems 4 MS 405 Probability & Statistics 4
-IT 504 E-Commerce 3 BM 504 Managerial Economics 4
-IT 509 Data Mining & Data
-Warehousing
-
-
-EL516 Design of Fine Mechanics and
-Power Devices 4 EL 521 Design & Technology of
-Electronic devices 4
-EL 517 Physical and Industrial Design of
-Electronic Systems 4 EL 522 Intelligent Instrumentation 5
-EL518 VLSI Design 5 EL 523 Advanced Programming
-Language 5
-EL 519 Design of Digital Systems 5 EL528 Seminar-I 1
-EL520 Quality and Reliability Engineering 4 EL 529 Seminar -II 1
-EL 601 M. Tech. Project
-( 2 semesters) dissertation
-
-EL 525 Data Communication 5 EL 524 Modeling and Simulation 5
-EL 527 Information Systems 5 EL 526 Application Software 5 
-
-
-BE 501 Basic Bioelectronics 4 BE 509 Biomathematics 3
-BE 502 Advanced Bioelectronic Devices 4 BE 510 Bioelectronic Systems &
-Control 3
-BE 503 Biomedical Signal Processing 5 BE 511 Basic Bio-electronics lab 4
-BE 505 Bioinspired Systems & Engineering 4 BE 512 Advanced Bioelectronics Lab 4
-BE 506 Biomedical Image Processing 4 BE 514 Seminar 1
-BE 507 Bioinformatics 4 BE 504 Neuroengineering 3
-BE 508 BioMEMS & Nanotechnology 4 BE 601 M. Tech. Dissertation 24
-
-EN 566 Fuel Technology 3 EN 567 Power Plant Engineering 3
-EN 568 Biomass Energy 3 EN 569 Solar Energy Utilization 3
-EN 570 Heat Transfer 3 EN 571 Other Non-conventional Energy
-Sources 3
-EN 572 Energy, Ecology & Environment 3 EN 573 Energy Management and
-Auditing 3
-EN 574 Energy, Economics & Planning 3 EN 575 Numerical Methods &
-Computational Techniques 3
-EN 576 Energy Lab - I 2 EN 577 Energy Lab - II 3
-Elective - I 3 Elective - II 3
- EN 578 Major Project (Part - I) 10 EN 579 Major Project (Part - II) 20
-Elective Courses
-EN 584 Advanced Bio-energy 3 EN 585 Advanced Solar Thermal Energy 3
-EN 586 Solar Photovoltaic Energy 3 EN 587 Petroleum Refining 3
-EN 588 Petroleum Exploration, Drilling
-& Production 3 EN 589 Wind Energy Utilization 3
-EN 590 Hydrogen Energy & Fuel Cell 3 EN 591 New Energy Technologies 
-
-CS539	Program Core I - Mathematical Foundations of Data Science	4	4 - 0 - 0
-CS542	Program Core II - Advanced Algorithms & Data Structures	4	3 - 1 - 0
-CS540	Research Methodology	2	2 - 0 - 0
-CS618	IPR	2	2 - 0 - 0
-CS500	Laboratory-I (Data Structures and Algorithms Lab)	2	0 - 0 - 2
-Audit Course	0	1 - 0 - 2
-Program Elective-I	4	
-Program Elective-II	4	
-Semester-I Total Credit	22	
-
-Semester-II
-
-Course Code	Course Title	Total Credit	L - T - P
-IT610	Program Core III – Advanced Database Systems	4	3-0-1
-CS622	Program Core IV – Machine Learning	3	3-0-0
-CS600	Laboratory 2 - Data Analytics & Visualization	2	0-0-2
-CS617	Mini Project with Seminar	4	1-0-3
-Audit Course	0	1-0-0
-Program Elective III	4	
-Program Elective IV	3	
-Total Credits	20	
-
-Semester-III
-
-Course Code	Course Title	Total Credit	L - T - P
-CS630	Term Project - I	14	0-0-14
-Program Elective - V	4	
-Open Elective	3	3-0-0
-Total Credits	21	
-
-Semester-IV
-
-Course Code	Course Title	Total Credit	L - T - P
-CS639	Term Project II / Industrial Project
-
-
-
-ES 501 Fundamentals of Environmental
-Science 3 ES 511 Environmental Pollution 4
-ES 502 Elements of Ecology 3 ES 512 Environmental Plant Physiology
-and Biochemistry 4
-ES 503 Environmental Chemistry 3 ES 513 Environmental Impact
-Assessment 3
-ES 504 Instrumental Methods of
-Analysis 3 ES 514 Waste Management 3
-ES 505 Natural Hazards 2 ES 515 Impact of Agriculture on
-Environment 3
-ES 506 Basics of Computer Science 3 ES 516
-Global Climate Change and its
-Impacts 3
-ES 507 Environmental Biology 3 ES 517 Soil Chemistry and Plant Growth 3
-ES 508 Environmental Physics 4 ES 518 Environmental Laws & Policies 2
-ES 509 Geo-Science 3 ES 519 Seminar in Environmental Science 1
-ES 510 Energy and Environment 3 ES 500 Projects/ Dissertation 10
-Elective Courses
-ES 520 Cell Biology 2 ES 525 Environmental Microbiology 2
-ES 521 Photosynthesis & Respiration 2 ES 526 Pesticides in relation to
-environment 2
-ES 522 Soil Science 2 ES 527 Agro-forestry 2
-ES 523 Human Population, Social
-Issues and the Environment 2 ES 528 Bio-diversity 2
-ES 524 Bio-Statistics 2 
-
-
-CT 401 Culture, Society and Tradition- I 5 CT 501 Culture, Society and Tradition- II 4
-CT 402 Folkloristics-I 4 CT 502 Folkloristics-II 5
-CT 403 Language as related to Culture 4 CT 503 Research Methodology 5
-CT 404 Visual and Performing Arts 5 CT 505 Cultural and Literary Theories:
-Recent Trends 5
-CT 405 Culture & Society ( N.E Indian
-Perspective) 5 CT 506 Art and Aesthetics: An
-Introduction 
-
-CT 406 Indian Society: Structure and
-Change 5 CT 507 Elements of Semiotics 5
-CT 408 Literatures of N.E India 4 CT 508 Dissertation 5
-CT 407 Literature as related to Culture 4
-Elective Courses
-CT 504 Cultural Conservation 4 CT 510 North East Indian Folklore Studies 4
-CT 509 Cultural Tourism 4 
-
-EG 411 English Literature- I (Chaucer to
-1660 - I) 5 EG 412 English Literature 1/ (Chaucer to
-1660 – II ) 3
-Introductory Linguistics and
-English Phonetics I EG 413 3 EG 414 Theory of Criticism I 3
-EG 415 Introductory Linguistics and
-English Phonetics II 2 EG 416 Introduction to ELT and
-Discourse Analysis 4
-EG 417 English Literature (1660 to 1798) 4 EG418 English Literature (1798-1900 - I) 4
-EG 517 English Literature
- (1798 to 1900 - II) 4 EG512 English Literature (1900 - 2000 - I) 4
-EG 518 American Literature 4 EG515 Indian Writing in English 4
-EG 516 New Literatures in English 4 EG419 Theory of Criticism II 4
-EG 513 English Literature
-(1900 - 2000 - II) 4
-Elective Courses
-EG 531 Genre Study: Fiction I 4 EG 532 Genre Study: Fiction II 4
-EG 533 Gender and Literature I 4 EG 534 Gender and Literature II 4
-EG 535 Indian Writing in English I 4 EG 536 India Writing in English II 4
-EG 537 Linguistics I 4 EG 538 Linguistics II 4
-EG 539 Cognitive Grammar I 4 EG 540 Cognitive Grammar II 4
-EG 541 ELT I 4 EG 542 ELT II 4
-EG 546 Dissertation / Papers 6 EG 544 American Literature I 4
-EG 545 American Literature II 4 
-
-CL 401 Reading Chinese Text -I 3 CL402 Reading Chinese Text-II 3
-CL 403 Comprehension and
-Translation 3 CL404 Composition and Translation 3
-CL405 Introduction to China-I 3 CL406 Introduction -to China -II 3
-CL407 Chinese Oral Skills -I 3 CL408 Chinese Oral Skills-II 
-
-
-MC 426 Principles of Mass
-Communication 3 MC 425 Development of Print Media 3
-MC 429 Reporting, Editing and Design 5 MC 427 Introduction to Electronic Media 3
-MC 428 Advertising and Public Relations 5 MC 433 Development Communication 3
-MC 430 Communication Research
-Methods and Applications 4 MC 445 Media Management 3
-MC 432 International Communication 3 MC 434 Radio Production 5
-MC 437 Television Journalism & Multicamera Production 5 MC 431 Traditional Media 4
- MC 435 Media Law & Ethics 4 MC 441 Internship 4
-MC 436 Political & Cultural
-Communication 3 MC 442 New Media Technology 4
- MC 443 Film Studies 4 MC 444 Advance TV Production 6
-MC 440 Communication Research Project 4
-Elective Courses
-MC 438 Visual Communication 4 MC 439 Assamese Journalism 4
-MC 446 Project on Print Journalism 4 MC 448 Project on Public Relation 4
-MC 447 Project on Advertising 4 MC 449 Project on TV Production 
-
-SC 401 Sociological Theories - I 5 SC 407 Political Sociology 5
-SC 402 Sociological Theories - II 5 SC 408 Research Methodology 5
-SC 403 Sociology of Kinship 3 SC 501 Industrial Sociology 4
-SC 404 Social Stratification 5 SC 502 Social Demography 4
-SC 405 Sociology of India 5 SC 503 Social Movements in India 4
-SC 406 Economic Sociology 4 SC 504 Sociology of Northeast India 4
-Elective Courses
-Students will choose any four from the- following:
-SC 521 Sociology of Medicine 4 SC 525 Environmental Sociology 4
-SC 522 Quantitative Sociology 4 SC 526 Sociology of Development 4
-SC 523 Sociology of Culture and Mass Media 4 SC 527 Gender and Society 4
-SC 524 Criminology 4 
-
-
-
-TM 411 Fundamentals of Tourism 4 TM 412 Destination Geography, -History
-and Heritage 4
-TM 413 Leisure Delivery System 4 TM 414 Inter Personal Skills 4
-TM 415 Information Based Management 4 TM 424 Tourism Practices 4
-TM 421 Management Fundamentals 2 TM 422 Finance and Accounting for
-Tourism 4
-TM 423 Tourism Entrepreneurship 4 TM 416 Term Paper 4
-TM 425 Resort Management 4 TM 426 Project
-
-
-CH103 Chemistry 4
-MS104 Mathematics I 4
-PH103 Physics I 3
-Second Semester
-MS105 Mathematics II 4
-PH104 Physics II 2
-Third Semester
-MS205 Mathematics III 3
-Courses offered in Ph.D. in Chemistry
-Course Code Course Title Cr.
-AC701 Supramolecular Chemistry 4
-AC702 Chemistry of Porous Materials 4
-
-
-#2023 Prospectus
-AM701 Inventory Modeling 4
-AM702 Optimization Techniques 4
-AM703 Transportation problems and Soft
-Computing
-4
-AM704 Graphs and Matrices 4
-AM705 Linear Algebra and Applicable Matrix Theory 4
-AM 706 Topics in Fourier Analysis 4
-AM 707 Topics in Theory of partial Differential
-Equations
-4
-Remaining credits to be fulfilled by open elective courses
-Courses offered in Ph.D. in Physics
-Course Code Course Title Cr.
-AP701 Astrophysical Gas Dynamics and Accretion
-Process
-4
-AP702 Optical Properties of Solids 4
-
-MS104 Mathematics I 4 PH104 Physics II 2
-PH103 Physics I 3 MS105 Mathematics II 4
-CH103 Chemistry 4 CO103 Introductory Computing 3
-EE103 Basic Electrical Engineering 3 ME103 Workshop Practice 2
-EE104 Basic Electrical Engineering Lab 1 CE103 Engineering Graphics 3
-EF103 English 3 CO104 Computing Laboratory 2
-SE100 Induction Programme 0 ME102 Engineering Mechanics 4
-EC102 Basic Electronics 4
-Third Semester Fourth Semester
-Course Code Course Title Cr. Course Code Course Title Cr.
-MS205 Mathematics-III 3 BT201 Biology 3
-ES201 Environmental Science 0 CE 223 Fluid Mechanics 4
-120 BA201 Economics 3 CE224 Surveying
-
-CE220 Building Construction and Drawing 4 CE225 Structural Analysis-I 4
-CE221 Building Materials & Technology 3 CE226 Geotechnical Engineering-I 4
-CE 222 Concrete & Structure Lab 2 CE227 Geotechnical Engineering Lab 2
-CE228 Engineering Geology 2
-CE229 Solid Mechanics 4
-Fifth Semester Sixth Semester
-Course Code Course Title Cr. Course Code Course Title Cr.
-LW301 Indian Constitution 0 IC361 Accounting and Financial Management 3
-CE320 Structural Design-I 4 CE328 Structural Design-II 3
-CE321 Hydraulics 3 CE329 Environmental Engineering-II 3
-CE322 Structural Analysis-II 3 CE330 Estimating, Costing and Valuation 3
-CE323 Geotechnical Engineering-II 3 CE331 Construction Management 3
-CE324 Environmental Engineering-I 3 CExxx Programme Elective-I 3
-CE325 Environmental Engineering Lab. 2 XXxxx Open Elective-I 3
-CE326 Transportation Engineering-I 3
-CE327 Transportation Engineering Lab
-XXxxx HSS / Management Elective 3 CExxx Programme Elective 3
-CExxx Programme Elective-II 3 CExxx Programme Elective 3
-CExxx Programme Elective-III 3 XXxxx Open Elective 3
-CExxx Programme Elective-IV 3 CE484 Project 6
-XXxxx Open Elective-II 3
-CE471 Industrial Summer Training 2
-CE483 Project-I 4
-CT465 Essence of Indian Traditional Knowledge
-CE 421 Advanced Reinforced Concrete Design 3 CE 432 Hydraulic Machines 3
-CE 422 Dynamics of Structures 3 CE 433 Groundwater Hydrology and Management 3
-CE 423 Pre-stressed Concrete and Industrial Structures 3 CE 434 Air Pollution and Industrial Waste Management 3
-CE 424 Bridge Engineering 3 CE 435 Solid Waste Engineering 3
-CE 425 Soil Dynamics and Foundation Engineering 3 CE 436 Environmental Impact Assessment 3
-CE 426 Ground Improvement Methods 3 CE 437 Remote Sensing and GIS 3
-CE 427 Earth Retaining Structures 3 CE 438 Pavement Design 3
-CE 428 Applied Geotechnical Engineering 3 CE 439 Pavements Materials 3
-CE 429 Environmental Geo-techniques 3 CE 440 Geometric Design of Road Transportation
-System 3
-CE 430 Open Channel Flow 3 CE 441 Design and Construction of Rural Roads 3
-CE 431 Hydraulic Structures 3 CE442 Analysis and design of foundations
-CE501 Engineering Behaviour of Soil 4 CE 504 Advanced Foundation Engineering 4
-CE 502 Geotechnical Exploration and Testing 5 CE 505 Ground Improvement Methods 3
-CE 503 Strength and Compressibility of Soils 3 CE 590 Term Paper 2
-- Elective I 3 - Elective III 3
-CE 101 Elective II 3 - Elective IV 3
-- Open Elective I 3 - Elective V 3
-- Open Elective II 3
-Third Semester Fourth Semester
-CE 598 M. Tech Project (MTP) Phase-I 12 CE 599 M. Tech Project (MTP) Phase-II 12
-Elective Courses
-First Semester Second Semester
-CE 521 Unsaturated Soil Mechanics 3 CE 527 Slope stability and Retaining Structures 3
-CE 522 Reinforced Earth and Geosynthetics 3 CE 528 Soil Dynamics and Foundation Engineering 3
-CE 523 Rock Mechanics 3 CE 529 Earth and Rockfill Dams 3
-CE 524 Groundwater Hydrology 3 CE 530 Geotechnical Aspects of Waste Disposal
-CE 525 Numerical Methods in Engineering 3 CE 531 Environmental Geotechnology 3
-CE 526 Analysis and Design of Pavements 3 CE 532 Earthquake Engineering
-CH103 Chemistry 4 PH104 Physics-II 2
-PH103 Physics-I 3 MS105 Mathematics-II 4
-MS104 Mathematics-I 4 CO105 Discrete Mathematics 4
-EE103 Basic Electrical Engineering 3 EC102 Basic Electronics 4
-EE104 Basic Electrical Engineering Lab 1 ME103 Workshop Practice 2
-EF103 Communicative English 3 CO103 Introductory Computing 3
-SE100 Induction Program 3 CO104 Computing Lab 2
-CE103 Engineering Graphics
-MS205 Mathematics – III 3 BT201 Biology 3
-CO202 Digital Logic Design 4 CO218 Data Communication 3
-CO209 Computing Workshop 2 CO214 Computer Architecture and Organization 4
-BA201 Economics 3 CO215 Computer Organization Lab 1
-CO210 Data Structures 4 CO216 Formal Language and Automata 3
-CO211 Data structures using Object Oriented
-Programming Lab 3 CO206 Design and Analysis of Algorithms 4
-EC201 Signals and Systems 3 CO217 Graph Theory 3
-ES201 Environmental Science
-CO309 Operating Systems 3 CO314 System Software and Compiler Design 4
-CO311 Software Engineering 3 - Elective-II (PEC02) 4
-CO310 Operating Systems Lab 1 - Open Elective-II (OEC02) 3
-CO312 Database Systems 3 CO315 Computer Networks 3
-CO313 Data base Systems Lab 2 CO316 Computer Networks Lab 1
-CO303 Computer Graphics 4 IC361 Accounting and Financial Management 3
-- Elective-I (PEC01) 3 CO317 Project-I (using SE perspective) 2
-- Open Elective-I (OEC01) 3
-LW301 Indian Constitution (MC- Non Credit)
-XXxxx * HSS/Management Elective 3 - Elective-V (PEC05) 3
-CO401 Artificial Intelligence 3 - Open Elective-IV (OEC04) 3
-- Elective-III (PEC03) 4 CO403 Project-III 8
-- Elective-IV (PEC04) 3
-- Open Elective-III (OEC03) 3
-CO402 Project-II 4
-CT465 Essence of Indian Traditional Knowledge
-(MC- Non Credit)
-SE100 Induction Programme Semester I
-CO404 Summer Internship /Industrial Training After Semester VI 128
-129
-CO405 Comprehensive Written Exam Semester VII/Semester VIII
-ES201 Environmental Science Semester III
-LW301 Indian Constitution Semester V
-CT465 Essence of Indian Traditional Knowledge Semester VI
-CO304 Principles of Programming Languages 3
-CO318 Cryptography 3
-CO432 Information Theory and Coding 3
-CO319 Statistical Modelling and Applications 3
-CO423 Web Technology 4
-CO306 Embedded Systems 4
-CO426 Advanced Computer Architecture 4
-CO422 Theory of Computation 4
-CO406 Distributed Systems 4
-CO509 Computer Vision & Image Processing 4
-CO512 Parallel Programming 4
-CO513 Fundamentals of Speech Processing 4
-CO514 Machine Learning 4
-CO515 Knowledge Representation and Reasoning 4
-CO516 Advanced Algorithms 4
-CO517 Virtual and Augmented Reality 4
-CO518 Cloud Computing 3
-CO504 Natural Language Processing 3
-CO519 Internet of Things 3
-CO520 Software Defined Networking and Network
-Function Virtualization 3
-CO521 Computational Geometry 3
-CO522 Bioinformatics 3
-CO523 Quantum Computing 3
-CO524 Linear Optimization 3
-CO505 Advanced Database Management System 3
-CO503 Fuzzy Logic and Neural Networks 3
-CO435 Mobile Computing 3
-CO525 Data Mining 4
-CO526 Operation Research
-CO103 Introductory Computing (Audit) 3 CO208 Object Oriented Programming (Audit) 4
-CO104 Computing Lab (Audit) 2 CO214 Computer Architecture and Organization (Audit) 4
-CO202 Digital Logic Design (Audit) 4 CO215 Computer Organization Lab (Audit) 1
-CO209 Computing Workshop (Audit) 2 CO218 Data Communication (Audit) 3
-CS305 Internet Concepts and Web Technology (Audit) 3
-First Semester Second Semester
-EF103 Communicative English (Audit) 3 IC361 Accounting and Financial Management 3
-CS405 Discrete Mathematics 3 CS413 Database Management System 3
-CS412 Data Structures 4 CS414 Database Management System Lab 2
-CS416 Object Oriented programming and data
-Structures Lab 3 CS417 Operating Systems 3
-- Elective-1 3 CS418 Operating Systems Lab 2
-- Elective-2 3 - Elective-4 3
-- Elective-3 3 - Elective-5 3
-- Open Elective-1 3
-Third Semester Fourth Semester
-CS513 Software Engineering 3 CS515 Major Project 16
-CS518 Software Engineering Lab 1
-CS519 Computer Networks 4
-CS520 Computer Networks Lab 1
-CS510 Minor Project
-Elective-6 3
-- Elective-7 3
-130 - Open Elective-2
-CS421 Graph Theory 3 CS525 Artificial Intelligence 3
-CS422 Numerical Methods 4 CS532 Compiler Design 4
-CS424 Formal Language and Automata 3 CS541 Mathematical Foundation for Computer Science 4
-CO423 Web Technology 4 CS530 Data Analytics and Visualization 4
-CO504 Natural Language Processing 3 CS538 Computational Geometry 3
-CO505 Advanced Database Management System 3 CS529 Embedded Systems 4
-CO513 Fundamentals of Speech Processing 4 CS601 Design & Analysis of Algorithms 3
-CO517 Virtual and Augmented Reality 4 CS602 Image Processing 3
-IT504 E-Commerce 3 CS606 Computer Architecture and Parallel Processing 3
-IT509 Data Mining & Data Warehousing 4 CS609 Geographic Information Systems 3
-IT507 Computer Security & Cryptography 3 CS610 Bioinformatics 3
-IT517 Pattern Recognition 4 IT611 Distributed Systems 3
-CS522 Computer Graphics 4 CS621 Mobile Computing 4
-CS524 Theory of Computation 3 CS638 Software Defined Networking & Network
-Function Virtualization
-CS531 Object Oriented Programming and Design 5 IT610 Advanced Database System 4
-CS634 Selected Topics in Computer Networks 4 CS545 Seminar 2
-CS 601 Design and Analysis of Algorithms 3 - Elective-II 3
-CS543 Advanced Programming Lab I 3 - Elective-III 3
-- Elective-I 3 - Elective-IV 3
-- Open Elective -I 3 - Open Elective-II
-IT604 Term Project-I 8 IT605 Term Project-II 16
-- Elective-V 3
-- Elective-VI 3
-Elective Courses
-CS509 Data Communication 4 CS533 Computational Geometry 3
-CS505 Software Engineering 4 IT523 Discrete Mathematics 3
-CS525 Artificial Intelligence 3 CS522 Computer Graphics 4
-CS424 Formal Language and Automata 3 CS523 Enterprise Resource Planning 3
-IT518 Graph Theory 3 CS524 Theory of Computation 3
-CS529 Embedded Systems 4 CS502 System Software 3
-CS621 Mobile Computing 4 CS507 Computer Networks 4
-CS625 Web Technology 4 CS523 Enterprise Resource Planning 3
-IT517 Pattern Recognition 4 CS524 Theory of Computation 3
-IT509 Data Mining and Data Warehousing 4 CS502 System Software 3
-IT507 Computer Security and Cryptography 3 CS507 Computer Networks 4
-CO504 Natural Language Processing 3 CS508 Database Management Systems 5
-CS610 Bioinformatics 3 IT503 Multimedia Systems 
-IT611 Distributed Systems 3 IT504 E-Commerce 3
-CS725 Knowledge Representation and Reasoning 4 CS602 Image Processing 3
-CS731 Data Mining in Security 4 CS607 Optimization Technique 3
-CO501 Network Management and Security 3 CO503 Fuzzy Logic and Neural Networks 3
-CS606 Computer Architecture and Parallel Processing 3 CS638 Software-Defined Networking and Network
-Function Virtualization
-CS541 Mathematical Foundation for Computer Science 4 CS634 Computer Architecture and Parallel Processing 3
-CS542 Advanced Algorithms and Data Structures 3 CS606 Advanced Programming Lab II 3
-CS544 Selected Topics in Computer Networks 4 CS545 Seminar 2
-CS543 Advanced Programming Lab I 3 -- Elective I 3/4
-IT510 Advanced Operating Systems 4 -- Elective II 3/4
--- Open Elective I 3
-Third Semester Fourth Semester
-- Elective III 3/4 CS641 Term Project-II 16
-- Elective IV 3/4
-- Open Elective II 3
-CS640 Term Project I 8
-Elective I
-IT610 Advanced Database System 4 IT611 Distributed Systems 3
-CS607 Optimization Techniques 3 CS612 Advanced Computer Graphics 3
-CS659 An Introduction to Probability in Computing 3 CS613 Image Processing and Computer Vision 3
-CS622 Modern Compiler Design 3 CS614 Graph Theoretic Algorithms 3
-IT517 Pattern Recognition 4 CS664 Parallel Algorithms
-CS615 Robotics 3 CS538 Computational Geometry 3
-CS637 Topics on Cognitive Radio and Networks 4 IT509 Data Mining and Data Warehousing 4
-CS525 Artificial Intelligence 3 CS504 Natural Language Processing 3
-CS616 Machine Learning 3 CS610 Bioinformatics 3
-CS529 Embedded Systems 4 CS663 Randomized Algorithms 3
-CS653 Introduction to Internet of Things 3 CS638 Software Defined Networking and Network
-Function Virtualization 3
-IT503 Multimedia Systems 4 CS524 Theory of Computation 3
-CS617 VLSI Design 3 CS618 Information Theory and Coding
-CS621 Mobile Computing 4 CO503 Fuzzy Logic and Neural Networks 3
-IT507 Computer Security and Cryptography 3 CS619 Privacy and Security in Online Social Network 3
-CS725 Knowledge Representation and Reasoning 4 CS668 Blockchain Architecture and Use cases 3
-CS602 Image Processing 3 CS620 Data Science 3
-Additional Elective Courses (from SWAYAM MOOCs courses of UGC)
-CS650 Introduction to Machine Learning 2 CS666 Embedded System Design with ARM 2
-CS651 Artificial Intelligence Search Methods for
-problem Solving 3 CS667 Introduction to Soft Computing 2
-CS652 Privacy and Security in Online Social Media 2 CS668 Blockchain Architecture and Use Cases 3
-CS653 Introduction to Internet of Things 3 CS669 Introduction to Industry 4.0 and Industrial
-Internet of Things 3
-CS654 Programming, Data Structures and Algorithms
-using Python 2 CS670 Deep Learning 3
-CS655 Scalable Data Science 2 CS671 Reinforcement Learning 3
-CS656 Introduction to R Software 2 CS672 Ethical Hacking 3
-CS657 Cloud Computing 2 CS673 Demystifying Networking 1
-CS658 Social Networks 3 CS674 Theory of Computation
-CS659 An Introduction to Probability in Computing 1 CS675 Practical Machine Learning with Tensor Flow 2
-CS660 Programming in Java 3 CS676 Human Computer Interactions 2
-CS661 Data Science for Engineers 2 CS677 Introduction to Machine Learning 3
-CS662 Machine Learning for Engineering and Science
-Applications 3 CS681 GPU Architecture and Programming 3
-CS663 Randomized Algorithms 3 CS682 Multi-Core Computer Architecture - Storage
-and Interconnects 2
-CS664 Parallel Algorithms 3 CS683 Data Analytics with Python 3
-CS665 AI: Knowledge Representation and Reasoning 3 CS684 Cloud Computing and Distributed Systems 2
-ED 201 Environmental Education 3 PD 216 Thermodynamics and Statistical Physics 3
-ED 202 Learner and Learning 3 ED 203 Contemporary Issues in Education 3
-MD219 Mathematics-III 3 ED 204 Assessment and Evaluation 3
-PD 297 Physics Lab-III 4 PD 298 Physics Lab-IV 4
-PD 201 Physics III (for non-major)
-DD-524 Design Project 4
-Electives (anyone from the below Design courses excluding open
-elective)
-DD-525 Product Communication & Digital Products 4
-DD-526 Product Graphics and Packaging – Principles and
-Applications 4
-- (University Open Electives) 3
-Third Semester
-DD-532 Usability Engineering 4
-DD-533 Design Project (Major) - I 8
-DD-534 Design Research Seminar (focused on scientific
-writing) 2
-Electives (Anyone from the Design courses below excluding open
-elective)
-DD-535 Semantics and Communication Theory 4
-DD-536 Product Detailing 4
-Fourth Semester
-DD-542 Design Project (Major) - II
-DD-511 Design and Creativity – An Introduction 4
-DD-512 Elements & Principles of Product Form Design 4
-DD-513 Visual Design – Principles and Technology 4
-DD-514 User Interface Design 4
-DD-515 Communication Techniques for Designers 2
-Electives (anyone from the below Design courses excluding open
-elective)
-DD-516 Materials and Manufacturing Processes for
-Designers 4
-DD-518 User Research Methods 4
-- (University Open Electives) 3
-Second Semester
-DD-521 Design Methods and Sustainability – Issues and
-concerns
-4
-DD-522 Ergonomics for Designers 6
-DD-523 Principles of Interaction Design
-CH 103 Chemistry 4
-MS 104 Mathematics-I 4
-EE 103 Basic Electrical Engineering 3
-EE 104 Basic Electrical Engineering lab 1
-PH 103 Physics-I 3
-EF 103 English 3
-SE 100 Induction Program -
-Second Semester
-PH 104 Physics-II 2
-MS 105 Mathematics-II 4
-CE 103 Engineering Graphics 3
-ME 103 Workshop Practice 2
-CO 103 Introductory Computing / Programming for
-Problem Solving 3
-CO 104 Computing Lab 2
-ME 102 Engineering Mechanics 4
-Third Semester
-PH 104 Physics-II 2
-MS 105 Mathematics-II 4
-CE 103 Engineering Graphics 3
-ME 103 Workshop Practice 2
-CO 103 Introductory Computing / Programming for
-Problem Solving 3
-CO 104 Computing Lab 2
-ME 102 Engineering Mechanics 4
-Fourth Semester
-BT 201 Biology 3
-EE 217 Digital Electronics 3
-EE 218 Digital Electronics Laboratory 3
-EE 219 Electrical Machines – II 1
-EE 220 Electrical Machines Laboratory – II 3
-EE 221 Microprocessor 1
-EE 222 Microcontroller Lab 4
-EE 216 Electromagnetic Fields 3
-- *Open Elective-1 3
-Fifth Semester
-EE 311 Power Systems – I (Apparatus and Modelling) 3
-EE 312 Power Systems Laboratory – I 1
-EE 313 Control Systems 3
-EE 314 Control Systems Laboratory
-EE 315 Power Electronics 3
-EE 316 Power Electronics Laboratory 1
-- Program Elective – 1
-- *Open Elective – 2 3
-LW 301 Indian Constitution 0
-Sixth Semester
-IC 361 Accounting & Financial Management 3
-EE 318 Power Systems – II (Operation and Control) 3
-EE 319 Power Systems Laboratory - II 1
-EE 320 Measurements and Instrumentation Laboratory 4
-EE 321 Electronics Design Laboratory 3
-- Program Elective – 2 4
-- Program Elective – 3 3
-- Open Elective – 3 3
-EE 322 Summer Internship # 0
-Seventh Semester
-XX xxx HSS / Management Elective 3
-- Program Elective -4 3
-- Program Elective -5 3
-- Open Elective – 4 3
-- Open Elective – 5 3
-EE 412 Project Stage-I 6
-CT 430 Essence of Indian Traditional Knowledge 0
-XX xxx HSS / Management Elective 3
-- Program Elective -4 3
-Eighth Semester
-- Program Elective -6 3
-- Open Elective -6 3
-EE 420 Project Stage-II 10
-- Program Elective -6 3
-For Program Elective –2 and Program Elective –3
-EE 323 Line Commutated and Active Rectifiers
-EE 324 Electrical Drives
-EE 325 High Voltage Engineering
-EE 326 Electrical Energy Conservation and Auditing
-EE 327 Industrial Electrical Systems
-EE 328 Digital Control Systems
-EE 329 Digital Signal Processing
-EE 330 Computer Architecture
-EE 331 Electromagnetic Waves
-EE 332 Computational Electromagnetics
-EE 333 Control Systems Design
-CH103 Chemistry 4
-148 MS104 Mathematics-I 4
-149
-EE103 Basic Electrical Engineering 3
-EE104 Basic Electrical Engineering Lab 1
-PH103 Physics-I 3
-EF103 English 3
-SE100 Induction Program -
-Second Semester
-PH104 Physics-II 2
-MS105 Mathematics-II 4
-EC102 Basic Electronics 4
-ME103 Workshop Practice 2
-CO103 Introductory Computing 3
-CO104 Computing Lab 2
-ME102 Engineering Mechanics 4
-CE103 Engineering Graphics 3
-Third Semester
-EC201 Electronics Devices 3
-EC202 Electronics Devices Lab 1
-EC203 Digital System Design 3
-EC204 Digital System Design Lab 13
-EC205 Signals and Systems 3
-EC206 Network Theory 3
-MS205 Mathematics-III 3
-BA201 Economics 3
-ES201 Environmental Science 0
-Fourth Semester
-EC207 Analog & Digital Communication 3
-EC208 Analog & Digital Communication Lab 1
-EC209 Analog Circuits 3
-EC210 Analog Circuits Lab 1
-EC211 Microcontroller and Microprocessor 3
-EC212 Microcontroller Lab 1
-BT201 Biology 3
-CS201 Data Structure & Operating System 3
-Fifth Semester
-EC301 Electromagnetic Waves
-EC302 Electromagnetic Waves Lab 1
-EC303 Computer Architecture 3
-EC304 Probability Theory & Stochastic Process 3
-EC305 Digital Signal Processing 3
-EC306 Digital Signal Processing Lab 1
-ECE Elective-I (any one from the subjects below)
-EC307 Mobile Communication& Networks 3
-EC308 Electrical Machines and Power protection 3
-EC309 Intelligent Instrumentation 3
-EC310 CMOS Design. ERC322: Fundamentals of Machine
-Learning and Deep Learning with Application
-3
-Open Elective-I 3
-LW301 Indian constitution (MC- Non-Credit) 0
-Sixth Semester
-EC311 Control System 3
-EC312 Computer Network 3
-EC313 Computer Network Lab 2
-EC314 Electronic Measurement Lab
-EC315 Mini Project 2
-ECE Elective-II (any one from the subjects below)
-EC316 Microwave Techniques 3
-EC317 Speech and Audio Processing 3
-EC318 Digital Image and Video Processing 3
-EC319 VLSI Design 3
-IC361 Open Elective-II 3
-Accounting & Financial Management 3
-#Students will undergo a summer training of 4 weeks after 6th
-semester during summer vacation and submit the report and the
-certificate of completion in the department in the beginning of 7th
-semester.
-Seventh Semester
-ECE Elective –III (any one from the subjects below)
-EC401 Information Theory & Coding 3
-EC402 Embedded Systems 3
-EC403 Satellite Communication 3
-EC404 Digital Systems and VHDL 3
-ECE Elective-IV (any one from the subjects below)
-EC405 Computer Vision 3
-EC406 Biomedical Signal Processing 3
-EC407 Antenna and Propagation 3
-EC408 Digital Control System 3
-ECE Elective-V (any one from the subjects below)
-EC409 Introduction to MEMS 3
-EC410 Biomedical electronics 3
-EC411 Fibre optic communication 3
-EC412 Nano-electronics 3
-ECE Elective-VII (any one from the subjects below)
-EC413 Fuzzy Logic and Neural network 3
-EC414 Bioneuro engineering 3
-EC415 Digital signal processor 3
-EC416 Electronics design automation 3
-Open Elective -III 3
-EC417 Project- Stage I 6
-* HSS/Management Elective
-CT465 Essence of Indian Traditional Knowledge
-(MC- Non- Credit)
-0
-Eighth Semester
-ECE Elective-VI (any one from the subjects below)
-EC418 Power electronics
-EC419 Mixed signal design 3
-EC420 High speed electronics 3
-Open Elective-IV
-EC421 Project- Stage II
-EL517 Physical and Industrial Design of Electronics
-Systems
-4
-EL531 Design of Digital Systems
-EL521 Design and Technology of Electronic Devices 4
-150 EL523 Advanced Programming Language 5
-151
-- Open Elective I 3
-- Elective I 4
-Second Semester
-EL516 Design of Fine Mechanics and Power Devices 4
-EL530 VLSI Design 4
-EL538 Advanced Electronic Devices 3
-EL540 Intelligent Instrumentation 4
-BE528 MEMs and Nanotechnology 3
-- Open Elective II 3
-- Elective II 4
-Third Semester and Fourth Semester
-EL601 M. Tech. Dissertation 24
-Elective I (Any one from the following courses)
-EL 533 Data Communication & Networks 4
-EL 535 Information Systems 4
-Elective II (Any one from the following courses)
-EL 546 Modeling and Simulation of Digital Sytems 3
-EL 544 CMOS Analog Circuits 4
-Courses offered in M. Tech. in Bioelectronics
-Course Code Course Title Cr.
-First Semester
-BE 515 Basic Bioelectronics 3
-BE 517 Biomedical Signal Processing 4
-BE 519 Bioinspired Systems and Engineering 3
-BE 509 Biomathematics 3
-BE 511 Basic Bioelectronics Laboratory 3
-- Open Elective I
-- Elective I 4
-Second Semester
-BE 524 Advanced Bioelectronic Devices 4
-BE 504 Neuro engineering 3
-BE 506 Biomedical Image Processing
-BE518 Bioelectronic Systems and Controls 4
-EL 540 Sensor & Sensor Intelligence 4
-- Open Elective II 3
-- Elective – II 3
-Third Semester and Fourth Semester
-BE 601 M. Tech. Dissertation
-Elective I (Any one from the following courses)
-BE 507 Bioinformatics 4
-BE 513 Biomedical Electronics 4
-Elective II(Any one from the following courses)
-BE 528 MEMS and Nanotechnology
-EN 560 Foundation for Energy Engineering 3
-EN 561 Fuel and Combustion 3
-EN 562 Heat Transfer 3
-EN 563 Solar Energy Engineering and Application 3
-EN 564 Biomass Energy and Application 3
-EN 565 Wind and Hydro Energy 3
-EN 566 Energy Laboratory 3
-- CBCT- I 3
-Second Semester
-EN 570 Energy Management and Auditing 4
-EN 571 Energy Economics and Planning 3
-EN 572 Energy Systems and Simulation Laboratory 3
-EN 573 Energy Study with Community Engagement 2
-- Elective - I 3
-- Elective - II 3
-- Elective- III 3
-- CBCT- II 3
-Third Semester
-EN 539 Project (Part-I) 8
-Elective I (Any one from the following courses)
-EN 515 Advanced Bio-Energy
-EN 516 Advanced Solar Thermal Energy
-3
-EN 517 Advanced Solar Photovoltaic Energy
-3
-EN 518 Hydrogen Energy and Fuel Cell
-3
-EN 519 Alternative Fuels for IC Engines
-3
-EN 520 Petroleum Exploration, Production and Refining
-3
-EN 521 Nuclear Energy
-3
-Fourth Semester
-EN 540 Project (Part-II) 16
-Elective – II & III (Any two from the following Courses) MOOCS course
-also can be opted)
-EN 525 Thermal Power Plant Engineering
-3
-EN 526 Energy Efficient Buildings
-3
-EN 527 Renewable Energy Grid Integration
-3
-EN 528 Decentralized Energy Systems
-3
-EN 529 Energy, Climate Change and Carbon Trade
-3
-EN 530 Instrumentation and Control for Energy Systems
-3
-EN 531 Numerical Heat Transfer and Fluid Flow
-3
-EN 532 Energy Conservation and Waste Heat Recovery
-3
-EN 533 Energy Storage Systems
-3
-EN 534 Energy Modeling and Optimization
-3
-EN 535 Energy Environment Interaction
-3
-EN 536 Materials and Devices for Energy Applications
-
-EN 537 Power Generation and System Planning
-3
-EN 538 Hybrid Renewable Energy Systems Design
-3
-EN 541 Electricity Regulations and Reforms in India
-CH 103 Chemistry 4
-EE 103 Basic Electrical Engineering 3
-EE 104 Basic Electrical Engineering Lab 1
-EF 103 English 3
-SE 100 Induction Programme -
-Second Semester
-PH 104 Physics-II 2
-MS 105 Mathematics-II 4
-CO 103 Introductory Computing 3
-ME 103 Workshop Practice 2
-CE 103 Engineering Graphics 3
-CO 104 Computing Laboratory 2
-ME 102 Engineering Mechanics 4
-FE 101 Introduction to Food Engineering & Technology 4
-Third Semester
-MS 205 Mathematics III 3
-BA 201 Economics 3
-FE 201 Biochemistry and Nutrition 4
-FE 202 Process Thermodynamics & Reaction Kinetics 4
-FE 203 Fluid Mechanics 4
-FE 204 Basic & Food Microbiology
-ES 201 Environmental Science 0
-Fourth Semester
-FE 205 Food Chemistry 4
-FE 206 Transport Phenomena 4
-FE 207 Principles of Food Processing & Preservation 2
-FE 208 Mechanical Operations & Material Handling
-3
-FE 209 Food Process Calculations
-2
-FE 210 Food Material Science & Engineering
-3
-- Open Elective I
-3
-Fifth Semester
-FE 301 Instrumentation & Process Control in Food
-Industry
-4
-FE 302 Thermal Operations in Food Processing
-4
-FE 303 Separation Techniques in Food Processing
-3
-FE 304 Grains and Oilseeds Processing Technology
-3
-FE 305 Food Analysis & Quality Control
-4
-LW301 Indian Constitution
-0
-- Elective I
-3
-- Open elective II
-3
-Sixth Semester
-FE 306 Food Packaging Technology
-3
-FE 307 Food Process Equipment Design
-3
-FE 308 Fruits and Vegetables Processing Technology
-3
-FE 309 Biochemical Engineering
-3
-FE 350 Credit seminar
-1
-- Elective II
-3
-- Open elective III
-3
-# Industrial Summer Training: Training shall be of 8 weeks duration
-carried out during the summer break after the 6th semester. The report
-will be submitted in the 7th semester.
-Seventh Semester
-FE 401 Dairy Products Technology
-3
-FE 402 Plantation Products & Spices Processing Tech
--
-nology
-3
-FE 471 Industrial Summer Training#
-2
-FE 481 Project-I
-4
-CT 430 Essence of Indian Traditional Knowledge
-0
-- HSS//Management Elective
-3
-- Elective III
-3
-- Elective IV
-FE 480 Comprehensive viva-voce
-0
-FE 482 Project-II
-8
-- Open elective IV
-3
-Elective Courses
-FE 421 Meat, Fish & Poultry Processing
-3
-FE 422 Bakery & Confectionery Technology
-3
-FE 423 Oils & Fats Technology
-3
-FE 424 Functional Foods
-3
-FE 425 Traditional Indian Foods
-3
-FE 426 Recent Trends in Food Processing
-3
-FE 427 Process Modelling & Simulations
-3
-FE 428 Refrigeration & Cold Storage Systems
-3
-FE 429 Food Supply Chain Management
-3
-FE 430 Food Plant Hygiene & Sanitation
-3
-FE 431 Plant Design & Layout
-3
-FE 432 Food Plant Utilities
-3
-FE 433 Food Safety & Quality Assurance
-3
-Open Elective Courses
-FE451 Operation Research 3
-FE452 Food Enterprise Development 3
-FE453 Optimization Techniques 3
-FE454 Numerical Methods 3
-FE455 Process Modelling & Simulations
-FT 681 Project work & dissertation part I 12
-Fourth Semester
-FT 682 Project work & dissertation part-II 12
-Elective Courses
-Group-I
-FT 541 Recent Trends in Plant Products Technology 3
-FT 542 Recent Trends in Animal Products Technology 3
-FT 543 Recent Trend in Baking and Confectionary 3
-FT 544 Extrusion Technology 3
-FT 545 Traditional Indian Food; Case Studies 3
-Group-II
-FT 546 Powder Technology
-FT 547 Recent trends in Biochemical Engineering
-FT 548 Nano Technology in Food Applications
-FT 549 Recent Trends in Fermentation Technology
-FT550 Recent Trend in Enzyme Technology
-FT 551 Valorization of Food Byproduct
-Group-III
-FT 552 Recent Trend in Drying and Dehydration
-FT 511 Research Methodology 3
-FT 512 Transport Phenomena in Food Engineering 4
-FT 513 Engineering Properties of Biological Materials 3
-- Elective- I 3
-- Elective- II 3
-- Elective -III 3
-- Open elective- I 3
-Second Semester
-FT 516 Emerging Food Processing Technologies 3
-FT 517 Food Equipment and Plant Design 3
-FT 518 Recent Trends in Food Product Development
-and Packaging 3
-FT 519 Food Process Modeling and Simulation 3
-FT 571 Seminar 3
-- Elective- IV 1
-- Elective- V 3
-- Open elective-IIFT 553 Food Microstructure and Texture 3
-FT 554 Novel Separation Process 3
-FT 555 Food Supply Chain Management Case Study 3
-FT 556 Chemistry of Food processes
-CH103 Chemistry
-4
-MS104 Mathematics -I
-4
-PH103 Physics -I
-3
-EE103 Basic Electrical Engineering
-3
-EE104 Basic Electrical Engineering Lab
-1
-EF103 English
-3
-SE100 Induction Program
--
-Second Semester
-PH 104 Physics -II
-2
-MS 105 Mathematics -II
-4
-EC 102 Basic Electronics
-4
-ME 102 Engineering Mechanics
-4
-ME103 Workshop Practice
-2
-CO103 Introductory Computing
-3
-CO104 Computing Laboratory
-2
-CE103 Engineering Graphics
-3
-Third Semester
-MS 205 Mathematics- III
-3
-BA 201 Economics
-3
-ME 201 Solid Mechanics
-4
-ME 202 Fluid Mechanics- I
-3
-ME 203 Material Science
-3
-ME 208 Manufacturing Technology- I
-3
-ME 217 ME Lab (Design)-I
-2
-ES201* Environmental Science
-0
-Fourth Semester
-BT 201 Biology
-3
-ME 205 Thermodynamics
-ME 209 Fluid Mechanics- II 3
-ME 214 Kinematics of Machinery 3
-ME 215 Mechanical Measurements and Instrumentation 3
-ME 216 Manufacturing Technology- II 3
-Fifth Semester
-ME 308 Heat and Mass Transfer 4
-ME 311 Machine Design -II 3
-ME 313 Dynamics of Machinery 3
-ME 314 Applied Thermodynamics 4
-ME 315 ME Lab (Manufacturing)-II 2
-- ME-Elective I 3
-- Open Elective I 3
-LW 301* Indian Constitution 0
-Sixth Semester
-IC 316 Accounting and Finance Management 3
-ME 312 Machine Design II 3
-ME 316 Computer-Aided Engineering 3
-ME 317 ME Lab (Thermal) III 2
-ME 318 Mini Project 2
-- ME-Elective II 3
-- ME-Elective III 3
-Open Elective II 3
-Seventh Semester
-XXxxx HSS/Management Elective 3
-ME 401 Industrial System Engineering 3
-ME471
-** Industrial Summer Training # 2
-ME 483 Project I 4
-- ME Elective IV 3
-- ME Elective V 3
-- Open Elective III 3
-CT 465* Essence of Indian Traditional Knowledge 0
-Eighth Semester
-- ME Elective VI 3
-- Open Elective IV 3
-ME 484 Project II
-ME 421 Computer Graphics and Solid
-Modeling 3
-ME 422 Optimization Methods in
-Engineering 3
-ME 423 Mechanical Vibration 3
-ME 424 Theory of Elasticity 3
-ME 425 Machine Tools and Machining 3 166
-167
-ME 426 Reliability Engineering 3
-ME 427 Productivity Improvement
-Techniques 3
-ME 428 Finite Element Methods in
-Engineering 3
-ME 429 Gas Turbine and Compressor 3
-ME 430 Value Engineering 3
-ME 503 Mechanics of Composite Materials 4
-ME 504 Failure Analysis of Materials 3
-ME 505 Advanced Dynamics 4
-ME 506 Theory of Elasticity and Plasticity 3
-ME 507 Theory of Plates and Shells 3
-ME 508 Continuum Mechanics 3
-ME 521 Robotics 3
-ME 522 Quality Engineering 3
-ME 523 Non-Conventional Energy 3
-ME 524 Operations Management 3
-ME 525 Tribology 3
-ME 526 Modern Control System 3
-ME 527 CAD-CAM 3
-ME 528 Energy Conservation and Waste Heat Recovery 3
-ME 529 Artificial Intelligence in Engineering 3
-ME 601 Automobile Engineering 3
-ME 602 Computational Fluid Dynamics and Heat Transfer 3
-ME 605 Hybrid Electric Vehicles 3
-ME 701 Advance Heat Transfer 3
-ME 431 Fracture and Fatigue 3
-ME 432 Engineering Optimization
-ME 433 Experimental Stress Analysis 3
-ME 434 Composite Materials 3
-ME 435 Machine Tool Design 3
-ME 436 Combustion Engineering 3
-ME 437 Tea Machineries 3
-ME 438 Petroleum and Drilling Technology 3
-ME 439 Refrigeration and Air Conditioning 3
-ME 440 Advanced Mechanics of Solids 3
-ME 531 Project Management 3
-ME 532 Power Plant Engineering 3
-ME 533 Energy Management 3
-ME 534 Mechatronics 3
-ME 535 Advanced Engineering Thermodynamics 3
-ME 537 Applied Computational Methods 4
-ME 538 Computer-Aided-Design in Engineering 4
-ME 539 Optimization Techniques in Engineering 3
-ME 540 Evolutionary Algorithms for Optimum Design 3
-ME 542 Computational Fluid Dynamics 4
-ME 543 Compressible Flow 4
-ME 544 Turbulent Shear Flow 3
-ME 545 Viscous Fluid FlowME 546 Fluid Transportation System 3
-ME 547 Two Phase Flow 3
-ME 621 Energy Conservation and Waste Heat Recovery 3
-ME 622 Communication Skills for Scientists and
-Engineers
-3
-*ES201, LW301 and CT465 are Mandatory-Non-Credit courses as per the
-revised-AICTE guideline. The lectures and laboratory classes assigned
-for these courses are not considered in the calculation of total credit
-structure. However, these courses are considered while calculating the
-number of hours.
-**The credit-break up for ME471 (Industrial Summer Training) is not
-shown in the table. However, its contribution of 2 credit is considered
-while calculating the total credit of 161 for the curriculum.
-# Industrial Summer Training: Training shall be of 8 weeks duration
-carried out during the summer break after the 6th semester. The report
-will be submitted in the 7th semester.
-*Open Elective: Any course of level 400 and above offered in the
-University and recommended by the department.
-$ The 7th semester will start a month later than usual and therefore be
-shorted by a month. To compensate for it there shall be 4 class hours per
-week for a 3-credit course.
-# Industrial Summer Training: Training shall be of 8 weeks duration
-carried out during the summer break after the 6thsemester. The report
-will be submitted in the 7th semester.
-Elective courses are offered on the basis of the choice of students and
-availability of teacher for teaching a particular course.
-Courses offered in M.Tech. in Mechanical Engineering
-Course Code Course Title Cr.
-First Semester
-Specialization: Machine Design
-ME 501 Advanced Solid Mechanics 4
-ME 623 Mathematical Methods for Engineers 4
-ME 509 Advanced Dynamics and Vibration 5
-xx-xxx Open Elective I 3
-xx-xxx Programme Elective I 3*
-xx-xxx Programme Elective II 3*
-Second Semester
-Specialization: Machine Design
-ME 502 Finite Element Methods 4
-ME 510 Engineering Design Laboratory 3
-ME 592 Term Paper 2
-xx-xxx Open Elective II 3
-xx-xxx Programme Elective III 3
-xx-xxx Programme Elective IV 3*
-xx-xxx Programme Elective V 3*
-First Semest
-ME 535 Advanced Engg. Thermodynamics 3
-ME 541 Advanced Fluid Mechanics 4
-ME 562 Experimental Methods in Thermal and Fluid
-Engineering 5
-xx-xxx Open Elective I 3
-xx-xxx Programme Elective I 3*
-xx-xxx Programme Elective II 3*
-Second Semester
-Specialization: Thermal and Fluid Engineering
-ME 530 Numerical methods 4
-ME 548 Convective Heat and Mass transfer 3
-ME 593 Seminar 2
-xx-xxx Open Elective II 3
-xx-xxx Programme Elective III 3
-xx-xxx Programme Elective IV 3*
-xx-xxx Programme Elective V 3*
-Third and Fourth Semester
-Specialization: Machine Design
-ME 613 M. Tech. Thesis Part I 
-ME 614 M. Tech. Thesis Part II 12
-Specialization: Thermal and Fluid Engineering
-ME 611 M. Tech. Thesis Part I 12
-ME 612 M. Tech. Thesis Part II 12
-Elective Courses
-ME 503 Mechanics of Composite Materials 4
-ME 504 Failure Analysis of Materials 3
-ME 505 Advanced Dynamics 4
-ME 506 Theory of Elasticity and Plasticity 3
-ME 507 Theory of Plates and Shells 3
-ME 508 Continuum Mechanics 3
-ME 521 Robotics 3
-ME 522 Quality Engineering 3
-ME 523 Non-Conventional Energy 3
-ME 524 Operations Management 3
-ME 525 Tribology 3
-ME 526 Modern Control System 3
-ME 527 CAD-CAM 3
-ME 528 Energy Conservation and Waste Heat Recovery 3
-ME 529 Artificial Intelligence in Engineering 3
-ME 531 Project Management 3
-ME 532 Power Plant Engineering 3
-ME 533 Energy Management 3
-ME 534 Mechatronics 3
-ME 535 Advanced Engineering Thermodynamics 3
-ME 537 Applied Computational Methods 4
-ME 538 Computer Aided Design in Engineering 4
-ME 539 Optimization Techniques in Engineering 3
-ME 540 Evolutionary Algorithms for Optimum Design 3
-ME 542 Computational Fluid Dynamics 4
-ME 543 Compressible Flow 4
-ME 544 Turbulent Shear Flow 3
-ME 545 Viscous Fluid Flow 3
-ME 546 Fluid Transportation Systems 3
-ME 547 Two Phase Flow 3
-ME 601 Automobile Engineering 3
-ME 602 Computational Fluid Dynamics and Heat
-Transfer 3
-ME 603 Hybrid Electric Vehicles 3
-ME 622 Communication Skills for Scientists and
-Engineers 3
-ME 701 Advance Heat Transfer 3
-New Elective Courses (Specialization: Machine Design)
-ME 511 Experimental Stress Analysis for Design 5
-ME 512 Theory of Plasticity 3
-ME 513 Introduction to Fracture Mechanics 3
-ME 521 Robotics 4
-ME 606 Stability Problem in Applied Mechanics 3
-ME 607 Soft Computing Technique in Engineering 3
-ME 608 Mechatronics and Industrial Automation 3
-ME 609 Design of Internal Combustion Engine 3
-ME 610 Kinematics and Dynamics of Internal
-Combustion Engine
-ME 624 Design of Internal Combustion Engine Auxiliary
-System 
-AS401 History of Assamese Language 4
-AS402 History of Assamese Literature 4
-AS403 Assamese Poetry 4
-AS404 Historiography of Assamese Literature 4
-AS405 Literary Theory and Criticism 4
-Second Semester
-AS406 Structure of Assamese Language 4
-AS407 Assamese Culture 4
-AS408 Assamese Drama 4
-AS409 Assamese Novel 4
-AS410 Creative Writing, Editing and Assamese DTP 2
-Open Elective To be chosen from other departments 3
-Third Semester
-AS411 Textual Criticism and Assamese Script 4
-AS412 Introduction to Digital Humanities 4
-AS413 Assamese Prose 4
-AS414 Introduction to Linguistics (EC) 4
-AS415 Introduction to Translation Studies (EC) 4
-AS416 History of Assamese Book (EC) 4
-AS417 Comparative Literature (EC) 4
-Open Elective To be chosen from other departments 3
-*EC-Elective Course (Anyone)
-Fourth Semester
-AS418 Assamese Short Story 4
-AS419 Non-fictional Writings from Assamese
-Periodicals 4
-AS420 Women’s Writings in Assamese: Non-Fictional
-Prose 4
-AS421 Sanskrit Literature (EC) 4
-AS422 World Literature in English/ Assamese
-Translation(EC) 4
-AS423 Introduction to Applied Linguistics (EC) 4
-AS424 Tibeto Burman Languages of Assam(EC) 4
-AS425 Film and Literature(EC) 4
-AS426 Dissertation
-CT420 Introduction to Cultural Studies 4
-CT421 Cultural Theory: Key Concepts 4
-CT422 Introduction to Popular Culture 4
-CT423 Research Methods 4
-CT424 Reading Culture: Perspectives from the West 3
-Second Semester
-CT430 Media and Culture 3
-CT431 Gender and Culture 4
-CT432 Folklore and Culture 4
-CT433 Exploring North East India 4
-Any 1(one) course from this cluster CT434 and CT435
-CT434 Culture and Environment 3
-CT435 Indian Society and Culture 3
-Any 1(one) course from this cluster CT436 and CT437
-CT436 Culture and Heritage 3
-CT437 Digital Culture 3
-Third Semester
-CT520 Visual Culture 4
-CT521 Audio-Visual Production 4
-Any 1(one)course from this cluster CT522 and CT523
-CT522 Music and Culture 3
-CT523 Cinema and Culture 3
-Any 1 (one)course from this cluster of CT524, CT525, CT526 and CT527
-CT524 Cultural Memos 3
-CT525 Community Dance in Assam 3
-CT526 Dance Ethnography
-CT527 Understanding New Media 3
-Any 1 (one)course from this cluster of CT528 and CT529
-CT528 Oral History Project 4
-CT529 Cyber Ethnography 4
-Open Elective (CBCS) 3
-Fourth Semester
-CT 530 Dissertation 6
-Any 2 (two) course from this cluster of CT31, CT532, CT533,CT534 and
-CT535
-CT531 Cultural Industries 3
-CT532 Performance and Culture 3
-CT533 Culture and Science: Select Readings 3
-CT534 Cultural Policy 3
-CT535 Reading India through the Cinematic Lens 3
-Any 2 (two) course from this cluster of CT536, CT537, CT538, CT539,
-CT540, CT541, CT542
-CT536 Culture for Social Change 3
-CT537 Cultural Spectacles and Infotainment 3
-CT538 Reading Culture: Perspectives front Assam
-CT539 Intercultural Communication 3
-CT540 Folk and Tribal Arts 3
-CT541 Cross Cultural Studies: North East India and
-South East Asia 3
-CT542 Bhakti Aesthetics
-BD 401 Human Growth and Development 5
-BD 402 Contemporary Indian Education 5
-BD 403 Language Across the Curriculum 4
-BD 404 Understanding Disciplines 4
-BD 405 Reading and Reflecting on Texts 2
-- Open Elective- I 3
-Second Semester
-BD 501 Teaching Learning and Management 4
-BD 502/
-BD 503/
-BD 504
-Teaching of Assamese -Part I/ Teaching of
-English –Part I/ Teaching of Hindi -Part I 3
-BD 507 /
-BD 508
-Teaching of Mathematics -Part I/ Teaching of
-Biological Science- Part I 3
-BD 505/
-BD 506
-Teaching of Social Science -Part I/ Teaching of
-Physical Science-Part I
-BD 509 Knowledge and Curriculum -Part I 3
-BD 510 Assessment and Evaluation of Learning 3
-BD 511 Drama and Art in Education 2
-BD 512 Pre-Internship 4
-- Open Elective- II 3
-Third Semester
-BD 550/ BD
-551/ BD 552
-Teaching of Assamese -Part II/ Teaching of
-English – Part II/ Teaching of Hindi -Part II 3
-BD 555/
-BD 556
-Teaching of Mathematics -Part II/ Teaching of
-Biological Science- Part II 3
-BD 553/
-BD 554
-Teaching of Social Science -Part II/ Teaching of
-Physical Science-Part II 3
-BD 557 School Internship 16
-Fourth Semester
-BD 575 Gender, School, and Society 3
-BD 576 Knowledge and Curriculum -Part II 3
-BD 577 Creating an Inclusive School 3
-BD 578 Guidance and Counselling 3
-BD 579/
-BD 580 Peace Education/ Environmental Education 3
-BD 581 Critical Understanding of ICT 4
-BD 582 Understanding the Self
-MA 106 Philosophical Underpinnings of Education 4
-MA 107 Psychology Foundations of Education 4
-MA 108 Methodology of Educational Research 4
-MA 109 Sociological Foundations of Education 4
-MA 110 Teacher Education 4
-Second Semester
-MA 206 Educational Technology 4
-MA 207 Measurement and Evaluation in Education 4
-MA 208 Inclusive Education 4
-MA 209 Psychological Experiments 4
-MA 210 Academic Writing (Practicum) 2
-- Open Elective- I (CBCT) 3
-Third Semester
-MA 306 History of Education: India and World 4
-MA 307 Statistics in Education 4
-MA 308 Curriculum Studies 4
-MA 309/
-MA 310/
-MA 311/
-MA 312
-Open and Distance Learning/ Human Rights,
-Peace and Value Education/ Education for
-Sustainable Development/ ICT in Education
-4
-MA 313 Research Proposal and Review Presentation
-ED 105 Basics in Computer Applications 3
-ED 106 Education: An Evolutionary Perspective 3
-Second Semester
-ED 107 Education and Development 3
-NS 106 or
-NC001
-National Service Scheme Or NCC for Youth
-Empowerment 2
-Third Semester
-ED 205 Environmental Education 3
-ED 202 Learner and Learning 3
-Fourth Semester
-ED 203 Contemporary Issues in Education 3
-ED 204 Assessment and Evaluation 3
-Fifth Semester
-ED 301 Teaching Approaches and Strategies 3
-ED 302 Classroom Organization and Management 3
-Sixth Semester
-ED 308 Pedagogy A: Physical Science-I 3
-ED 307 or
-ED 309
-Pedagogy B: Mathematics I or
-Pedagogy B: Biological Science-I 3
-ED 303 School Education in North East India 2
-Seventh Semester
-ED 408 Pedagogy A: Physical Science-II 3
-ED 407 or
-ED 409
-Pedagogy B: Mathematics II or Pedagogy B:
-Biological Science-II 3
-ED 404 Initial School Experience/ School Internship-I 4
-Eighth Semester
-ED 405 School Internship-II
- Open Elective-II (CBCT) 3
-Fourth Semester
-MA 405 Educational Administration and Management 4
-MA 406 Politics and Economics of Education 4
-MA 407 /
-MA 408/
-MA 409/
-MA 410
-Principles and Techniques of Teaching /
-Educational Guidance and counseling / Indian
-Intellectual Traditions / Yoga & Personality
-Development
-4
-MA 411 Dissertation
-EG111 Reading Literature 4
-EG112 English for Communication 3
-CS101 Basics in Computer Application 3
-MIL (ANY ONE)
-AS101 MIL Assamese: Poetry (Early and Modern) 3
-HN101 Madhyakalin aur Adhunik Kabya (in Hindi) 3
-EG106 Alternative English -I 3
-OPTIONAL COURSES (ANY TWO)
-SO102 Introduction to Sociology 2
-CT161 Basic Concepts in Cultural Studies -I 2
-MC101 Introduction to Communication 2
-Second Semester
-EG113 History of English Literature 4
-EG114 English Poetry I: Chaucer to Dryden 3
-ES103 Environmental Science 3
-NS102 NSS/NCC 2
-MIL (ANY ONE)
-AS102 Assamese : Drama 3
-HN102 Kahani aur Upanyas (in Hindi) 3
-EG109 Alternative English-II 3
-OPTIONAL COURSES (ANY TWO)
-SO103 Introduction to Sociological Thought 2
-CT162 Introduction to Folklore Studies 2
-MC201 Journalism 2
-Third Semester
-EG211 British Drama I: Beginning to
-Shakespeare 4
-EG212 English Fiction-I 3
-EG213 English Poetry-II: Pope to
-Romantics 4
-To be chosen
-by students CBCT-I 3
-MIL (ANY ONE)
-AS201 MIL (Assamese): Short Story and Novel 2
-EG209 Alternative English -III 2
-HN201 Natak Aur Ekanki (Hindi) 2
-OPTIONAL COURSES (ANY TWO)
-SO201 Society in India 2
-CT163 Basic Concepts in Cultural Studies-II 2
-MC301 Advertising and Public Relations
-EG214 Literary Criticism-I 4
-EG215 Drama-II: Jacobean to Eighteenth Century 4
-EG216 Fiction-II: Victorian to Modern 4
-To be chosen
-by students CBCT-II 3
-MIL (ANY ONE)
-AS202 MIL (Assamese) Essay, Structure of Assamese 2
-EG211 Alternative English -IV 2
-HN202 Nibandh Aur Hindi Bhasa Ki Bhasik
-Sangrachana 2
-OPTIONAL COURSES (ANY TWO)
-SO202 Social Research Method 2
-CT164 Cultural Studies: Its Development and Trends 2
-MC401 Electronic Media 2
-Fifth Semester
-EG311 Poetry-III: Victorian to Modern 4
-EG312 Non-Fictional Prose 4
-EG313 Drama-III: Shaw to Beckett 4
-EG314 Phonetics of English and ELT 4
-To be chosen
-by students CBCT-III 3
-Sixth Semester
-EG315 Literary Criticism-II 4
-EG316 Introduction to Postcolonial Literature 4
-EG317 Introduction to Children’s Literature 3
-EG318 Introduction to South Asian Writing 3
-To be chosen
-by students CBCT-IV/Open Elective 3
-*Subject to revision.
-Courses offered in M. A. in English
-Course Code Course Title Cr.
-First Semester
-EG451 Literary and Critical Theory-I 4
-EG452 English Literature from Chaucer to Marlowe 4
-EG453 Shakespearean Drama 4
-EG454 Fiction-I (Early to Jane Austen) 4
-EG417 Academic and Critical Writing in English 3
-Second Semester
-EG455 Language and Language Education 4
-EG456 Puritan to Eighteenth Century Literature (Poetry
-and Drama)
-4
-EG457 Romantic Poetry and Prose 4
-EG458 Fiction-II (Nineteenth Century) 4
-EG460 Fundamentals of Research
-EG504 Modern Poetry 4
-EG505 Modern Prose 4
-EG506 Postcolonial Literatures in English 4
-- Elective- II 4
-EG519 Term Paper 4
-Elective –I (Any One from the following Courses)
-EG507 Translation-I 4
-EG509 Gender and Literature-I 4
-EG511 American Literature-I 4
-EG513 Indian Writing in English-I 4
-EG515 ELT-I 4
-Elective –II (Any One from the following Courses)
-EG508 Translation-II 4
-EG510 Gender and Literature-II 4
-EG512 American Literature-II 4
-EG514 Indian Writing in English-II 4
-EG516 ELT-II
-EG501 Literary and Critical Theory -II 4
-EG502 Modern Drama 4
-EG503 Modern Fiction
-CL110 Read and Write Chinese -I 3
-CL112 Chinese Comprehension 3
-CL114 Speaking Chinese- I 3
-188 CL116 China in Brief-I 3
-189
-Second Semester
-CL111 Read and Write Chinese -II 3
-CL113 Chinese Composition 3
-CL115 Speaking Chinese- II 
-CL117 China in Brief-II
-LW401 Indian Constitutional Law and Emerging
-Challenges
-5
-LW402 Research Methodology 5
-LW403 Legislation-Principles, Methods &
-Interpretation
-4
-SPECIALISATION ELECTIVE (compulsory)
-LW404 Criminology, Penology and Victimology 5
-LW405 Human Rights Jurisprudence 5
-LW406 General principles of Criminal law 5
-LW407 International Human Rights Law 5
-AUDIT COURSE 0
-LW408 Interpretation of Status
-Second Semester
-LW420 Judicial Process 5
-LW421 Project 3
-SPECIALISATION ELECTIVE (Two elective courses to be opted for
-each specialization)
-LW422 Socio Economic Offences 5
-LW423 Law Relating to Cyber Crime 5
-LW424 Emerging Challenges in Evidence Law 5
-LW425 Criminal Justice and Human Rights 5
-LW426 Protection and Enforcement of Human Rights
-in India
-5
-LW427 Environment and Human Rights 5
-- Open Elective (to be chosen from other
-departments)
-3
-Third Semester
-LW501 Law and Social Transformation 5
-LW502 Research Seminar 3
-ELECTIVE (Two elective courses to be opted for each specialization)
-LW503 Correctional Law and Administration in India 5
-LW504 Comparative Criminal Procedure 5
-LW505 Human Rights and Criminal Justice
-Administration
-5
-LW506 International Humanitarian Law
-LW407 International Refugee Law 5
-LW408 Media and Human Rights 5
-- Open Elective (to be chosen from other
-departments)
-3
-Fourth Semester
-LW520 Legal Drafting Skills and Outreach Activities 5
-LW521 Pedagogy in Law 3
-LW522 Dissertation and Viva -Voce
-LG 421 Philosophy of Linguistics 3
-LG 422 Phonetics and Phonology I 4
-LG 423 Morphology 3
-LG 424 Basic Syntax 4
-LG 425 Introduction to Computational Linguistics 3
-Second Semester
-Open Elective 3
-LG 426 Phonetics and Phonology II 3
-LG 427 Syntax 3
-LG 428 Semantics 3
-LG 429 Field Linguistics 3
-LG 430 Cognitive Linguistics 4
-Third Semester
-Open Elective 3
-LG 501 Language Typology and Language Universals 4
-LG 502 Sociolinguistics 4
-LG 503 Natural Language Processing 4
-LG 511 Research Methodology 3
-(Elective Courses (any one of the following to be opted for)
-LG 504 Advanced Phonology 4
-LG 505 Advanced Cognitive Linguistics-I 4
-LG 506 Generative Syntax 4
-LG 507 Lexicography 4
-LG 508 Acoustic Phonetics: Instrumental Techniques
-and Data Analysis
-4
-LG 517* Language Documentation and Grammar
-Writing*
-4
-Fourth Semester
-LG 509 Historical Linguistics 4
-LG 510 Advanced Computational Linguistics 4
-LG 518 Introduction to Psycholinguistics* 4
-LG 521 Dissertation
-MC 572 Communication Theories 3
-MC 573 Principles of Journalism 4
-MC 574 Advertising 4
-MC 575 Broadcast media: Radio 4
-MC 576 New Media: Evolution, principles & theory 4
-MC 577 Media in Northeast India 3
-Second Semester
-MC 578 Writing for Media 4
-MC 579 Photojournalism 3
-MC 580 Broadcast Media: Television 3
-MC 581 PR & Corporate communication 4
-MC 582 Portfolio Preparation and Comprehensive
-Viva-Voce-I
-2
-Third Semester
-MC 588 Communication research methods 4
-MC 589 Communication for social change and
-development
-3
-MC 590 Media law and ethics 3
-MC 591 Internship
-MC 599 Understanding Cinema 3
-MC 600 Science Communication 4
-MC 601 Political and International Communication 3
-204 MC 602 Communication research project
-MC 603 Portfolio preparation and Comprehensive VivaVoce-II
-2
-Elective III 4
-Electives Semester II for MA-MCJ
-MC 583 Media Management 4
-MC 584 Graphic design for media 4
-MC 585 Health Communication 4
-MC 586 Film appreciation and criticism 3
-MC 587 Digital media literacy 3
-Electives Semester III for MA-MCJ
-MC 592 Media Culture and Society 3
-MC 593 Television Program Production 3
-MC 594 Folk and Community Media 3
-Electives Semester IV for MA-MCJ
-MC 604 New media production 4
-MC 605 Documentary production 4
-MC 606 Community radio 4
-Courses offered in M.A. in Communication for
-Development
-Course Code Course Title Cr.
-First Semester
-CD416 Theories of Communication and Media 3
-CD417 Theories of Communication for Development 3
-CD418 Issues in Development 4
-CD419 Development Journalism 5
-CD420 Introduction to Audio and Video Production 5
-Second Semester
-CD 421 Research Monitoring and Evaluation 4
-CD 422 Participatory Audio and Video Production 6
-CD 423 Human Rights 4
-CD 424 Media Message Designing for Development 5
-- CBCS 3
-Third Semester
-CD 425 Campaign Planning 5
-CD 426 Folk and Community Media 5
-CD 427 New Media for Development 4
-CD 428 NGO participation and Management 3
-CD 414 Internship 4
-- CBCS 3
-Fourth Semester
-DC 415 Project *
-SW451 Understanding Society 2
-SW452 Human Behaviour and Social Environment 2
-SW453 Political Economy: State, Society and Social
-Development 2
-SW454 Social Work Profession 3
-SW455 Social Work Methods: Working with
-Individuals and Families
-SW456 Community Health 2
-SW457 Social work with Children and Older adults 2
-SW458 Field Work 6
-Secomd Semester
-SW 459 Research Methods (Part-I; Qualitative) 2
-SW 460 Social Work Methods: Work with Communities 3
-SW 461 Social Work Methods: Working with Groups 3
-- Electives (Choose any one group)
-Group A or Group B 2+2
-- Open Elective 3
-SW 463 Field Work 5+1*
-Open Elective Courses Offered by the Department
-SW 462 Engaging with Communities 3
-Elective Courses for the Second Semester (Any two)
-Both the Courses from any of Elective Group A or B
-Elective Group A
-SW421 Urban Community Development 2
-SW422 Rural and Tribal Community Development 2
-Elective Group B
-SW423 Social Work in Schools 2
-SW424 Development Communication for Social Work 2
-Third Semester
-SW521 Development Administration 2
-SW522 Social Action, Advocacy and Movements 2
-SW523 Research Methods (Part II); Quantitative) 2
-SW524 Gender issues 2
-Electives (Choose any one group)
-Group A or Group B 2+2
-SW 525 FIELD WORK 5+1*
-SW 526 Dissertation 2
-- Open Elective 3
-* Credit is for Urban Camp
-Fourth Semester
-SW 527 Human Rights and Social Justice 2
-SW528 Social Policy and Planning
-SW529 BLOCK FIELD WORK 6
-SW530 Dissertation
-SW571 Social Work and Mental Health 2
-SW572 Social Work Practice in HIV and Other
-Infectious Diseases 2
-Elective Group B
-SW573 Ecology and Social Work 2
-SW574 Social Work and Livelihoods Promotion
-SW575 Introduction to Dalit Studies 2
-SW576 Social Works with Persons with Disabilities 2
-Elective II Group A
-SW577 Disaster Management 2
-SW577 Peace Education and Conflict Management 2
-Elective II Group B
-SW579 Labour Legislation 2
-SW580 H.R. Management and CSR
-SC451 Classical Sociological Traditions 4
-SC452 Research Methodology 4
-SC453 Sociology of Family and Kinship 4
-SC454 Sociology of India – I 4
-- CBCT 3
-Second Semester
-SC455 Sociology of India – II 4
-SC456 Modern Sociological Theories and Perspectives 4
-SC457 Economic Sociology 4
-SC458 Social Stratification 4
-- Elective – I 3
-- CBCT 3
-Third Semester
-SC521 Political Sociology 4
-SC522 Sociology of Development 4
-SC523 Sociology of Northeast India 4
-- Elective –II 3
-- CBCT 3
-Fourth Semester
-SC524 Sociology of Religion 4
-SC525 Social Movements in India 4
-SC526 Research Project 8
-- Elective –III 3
-- Elective- IV 3
-- CBCT 3
-Elective courses offered by the Department
-SC 471 Social Statistics 3
-SC 472 Population and Society 3
-SC 571 Gender and Society 3
-SC 572 Industrial Sociology 3
-SC 573 Sociology of Health and Illness 3
-SC 574 Environmental Sociology 3
-SC 575 Sociology of Mass Media 3
-SC 576 Sociology of Governance 3
-SC 577 Sociology of Education 3
-SC 578 Identity and Violence 3
-SC 579 Sociology of Science 3
-SC 580 Urban Sociology 3
-SC 581 Body, Gender and Sexuality
-TM 501 Fundamentals of Tourism 3
-TM 502 Destination Geography, History and
-Heritage
-3
-TM 503 Fundamentals of Management 3
-TM 504 Tourism and Travel Industry 3
-TM511/ TM 512 Department Centric Elective -I 3
-- Open Elective- IT Base 3
-Second Semester
-TM 541 Finance and Accounting for Tourism 3
-TM 542 Marketing in Tourism 3
-TM 543 Human Resource Management 3
-TM 544 Travel Agency and Tour Operation 3
-TM 561 / TM 562 Department Centric Elective -II 3
-- Open Elective- Foreign Language Base 3
-Third Semester
-TM 601 Research Methods 3
-TM 602 Tourism Entrepreneurship
-TM 603 Foundation of Information Technology and
-Computerised Reservation System
-3
-TM 604 Hospitality Management 3
-TM 605 Summer Internship 5
-TM 611/ TM 612 Department Centric Elective - III 3
-- Open Elective- Foreign Language Base 3
-Fourth Semester
-TM 641 Destination Planning and Management 3
-TM 642 Sustainable Tourism 3
-TM 643 Legal and Ethical Issues in Tourism 3
-TM 661/
-TM 663
-Department Centric Elective -IV 3
-- Department Centric Elective-V 3
-- Open Elective 3
-TM 665 Dissertation based on outdoor activities 3
-Department Centric Elective –I
-TM 511 Soft Skill Development 3
-TM 512 Leisure Delivery System 3
-Department Centric Elective –II
-TM 561 Tour Guiding and Local Handling 3
-TM 562 Basic Cargo Rating and Handling 3
-Department Centric Elective –III
-TM 611 Tourism in North East India 3
-TM 612 Promotional Strategies in Tourism 3
-Department Centric Elective –IV and V
-TM 661 Managerial and Financial Decisions for
-Small Business
-3
-TM 662 MICE Management 3
-TM 663 Tourist Behaviour 3
-TM 664 Basic Airfare 3
-For students taking admission as a Research Scholar for PhD, following
-courses are offered in the basket of core and elective courses. Students
-are expected to pick up courses at his discretion, as advised by the
-Research Supervisor.
-Core Courses
-Code Course Name
-BM 701 Research Methods in Business
-BM 714 Managerial Orientation
-BM 727 Research Ethics
-BM 715 Organisational Behaviour
-BM 716 Emerging Trends in Human Resource Development
-BM 717 Leading Change
-BM 718 Financial Management Decisions
-BM 719 Trends in Corporate Accounting
-BM 720 Advanced Quantitative Research
-BM 721 Advanced Marketing Management
-BM 722 Consumer Psychology
-BM 723 Service Marketing
-BM 724 Entrepreneurship Development: Strategies and Models
-BM 713 Livelihood and Microfinance
