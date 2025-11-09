@@ -1,4 +1,4 @@
-## Tezpur University Subject Lists
+## Tezpur University Subject with code and course name Lists
 
 **JSON** for Tezpur University subjects  using 2023 Prospectus.
 It demonstrates how to load, decode, and display structured subject data from a JSON file using pure Dart and python.
